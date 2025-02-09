@@ -1,0 +1,184 @@
+{
+"characters": [
+    {
+    "name": "Mickey Mouse",
+    "clothingColor": "Red",
+    "role": "Main Character",
+    "parutionYear": 1928,
+    "gender": "Male",
+    "hairColor": "None",
+    "continent": "North America"
+    },
+    {
+    "name": "Donald Duck",
+    "clothingColor": "Blue",
+    "role": "Sidekick",
+    "parutionYear": 1934,
+    "gender": "Male",
+    "hairColor": "White",
+    "continent": "North America"
+    },
+    {
+    "name": "Cinderella",
+    "clothingColor": "Blue",
+    "role": "Protagonist",
+    "parutionYear": 1950,
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "continent": "Europe"
+    },
+    {
+    "name": "Maleficent",
+    "clothingColor": "Black and Purple",
+    "role": "Antagonist",
+    "parutionYear": 1959,
+    "gender": "Female",
+    "hairColor": "Black",
+    "continent": "Europe"
+    },
+    {
+    "name": "Mulan",
+    "clothingColor": "Green and Blue",
+    "role": "Protagonist",
+    "parutionYear": 1998,
+    "gender": "Female",
+    "hairColor": "Black",
+    "continent": "Asia"
+    },
+    {
+    "name": "Simba",
+    "clothingColor": "Golden",
+    "role": "Protagonist",
+    "parutionYear": 1994,
+    "gender": "Male",
+    "hairColor": "Golden",
+    "continent": "Africa"
+    },
+    {
+    "name": "Ariel",
+    "clothingColor": "Purple and Green",
+    "role": "Protagonist",
+    "parutionYear": 1989,
+    "gender": "Female",
+    "hairColor": "Red",
+    "continent": "Europe"
+    },
+    {
+    "name": "Elsa",
+    "clothingColor": "Blue",
+    "role": "Protagonist",
+    "parutionYear": 2013,
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "continent": "Europe"
+    },
+    {
+    "name": "Aladdin",
+    "clothingColor": "Purple and White",
+    "role": "Protagonist",
+    "parutionYear": 1992,
+    "gender": "Male",
+    "hairColor": "Black",
+    "continent": "Asia"
+    },
+    {
+    "name": "Genie",
+    "clothingColor": "Blue",
+    "role": "Sidekick",
+    "parutionYear": 1992,
+    "gender": "Male",
+    "hairColor": "None",
+    "continent": "Asia"
+    },
+    {
+    "name": "Pocahontas",
+    "clothingColor": "Beige",
+    "role": "Protagonist",
+    "parutionYear": 1995,
+    "gender": "Female",
+    "hairColor": "Black",
+    "continent": "North America"
+    },
+    {
+    "name": "Hercules",
+    "clothingColor": "Brown and Blue",
+    "role": "Protagonist",
+    "parutionYear": 1997,
+    "gender": "Male",
+    "hairColor": "Orange",
+    "continent": "Europe"
+    },
+    {
+    "name": "Hades",
+    "clothingColor": "Black and Blue",
+    "role": "Antagonist",
+    "parutionYear": 1997,
+    "gender": "Male",
+    "hairColor": "Blue Flames",
+    "continent": "Europe"
+    },
+    {
+    "name": "Tiana",
+    "clothingColor": "Green",
+    "role": "Protagonist",
+    "parutionYear": 2009,
+    "gender": "Female",
+    "hairColor": "Black",
+    "continent": "North America"
+    },
+    {
+    "name": "Rapunzel",
+    "clothingColor": "Purple",
+    "role": "Protagonist",
+    "parutionYear": 2010,
+    "gender": "Female",
+    "hairColor": "Blonde",
+    "continent": "Europe"
+    },
+    {
+    "name": "Moana",
+    "clothingColor": "Red and Beige",
+    "role": "Protagonist",
+    "parutionYear": 2016,
+    "gender": "Female",
+    "hairColor": "Brown",
+    "continent": "Oceania"
+    },
+    {
+    "name": "Maui",
+    "clothingColor": "Brown",
+    "role": "Sidekick",
+    "parutionYear": 2016,
+    "gender": "Male",
+    "hairColor": "Black",
+    "continent": "Oceania"
+    },
+    {
+    "name": "Scar",
+    "clothingColor": "Brown and Black",
+    "role": "Antagonist",
+    "parutionYear": 1994,
+    "gender": "Male",
+    "hairColor": "Black",
+    "continent": "Africa"
+    },
+    {
+    "name": "Peter Pan",
+    "clothingColor": "Green",
+    "role": "Protagonist",
+    "parutionYear": 1953,
+    "gender": "Male",
+    "hairColor": "Red",
+    "continent": "Europe"
+    },
+    {
+    "name": "Captain Hook",
+    "clothingColor": "Red",
+    "role": "Antagonist",
+    "parutionYear": 1953,
+    "gender": "Male",
+    "hairColor": "Black",
+    "continent": "Europe"
+    }
+]
+}
