@@ -20,6 +20,7 @@ MVP
 - Disney Wiki: https://disney.fandom.com/fr/wiki
 - Vidéos chansons : https://www.youtube.com/playlist?list=PLU5-6mn9YBf2GRSsGqTnr4Hmosr7zaqck
 - converter chansons: https://cnvmp3.com/v10
+- blindtest répliques: https://www.youtube.com/watch?v=oUwADQus3B8
 
 ## Technologies
 - Frontend: React
