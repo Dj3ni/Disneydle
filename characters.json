@@ -3,7 +3,7 @@
     {
     "name": "Mickey Mouse",
     "clothingColor": "Red",
-    "role": "Main Character",
+    "role": "Protagonist",
     "parutionYear": 1928,
     "gender": "Male",
     "hairColor": "None",
@@ -179,6 +179,96 @@
     "gender": "Male",
     "hairColor": "Black",
     "continent": "Europe"
-    }
-]
+},
+        {
+        "name": "Pascal",
+        "clothingColor": "Green",
+        "role": "Companion",
+        "parutionYear": 2010,
+        "gender": "Male",
+        "hairColor": "None",
+        "continent": "Europe"
+        },
+        {
+        "name": "Meeko",
+        "clothingColor": "Grey and Black",
+        "role": "Companion",
+        "parutionYear": 1995,
+        "gender": "Male",
+        "hairColor": "Grey",
+        "continent": "North America"
+        },
+        {
+        "name": "Abu",
+        "clothingColor": "Brown",
+        "role": "Companion",
+        "parutionYear": 1992,
+        "gender": "Male",
+        "hairColor": "Brown",
+        "continent": "Asia"
+        },
+        {
+        "name": "Sébastien",
+        "clothingColor": "Red",
+        "role": "Companion",
+        "parutionYear": 1989,
+        "gender": "Male",
+        "hairColor": "None",
+        "continent": "Caribbean"
+        },
+        {
+        "name": "Flounder",
+        "clothingColor": "Yellow and Blue",
+        "role": "Companion",
+        "parutionYear": 1989,
+        "gender": "Male",
+        "hairColor": "None",
+        "continent": "Caribbean"
+        },
+        {
+        "name": "Mushu",
+        "clothingColor": "Red and Yellow",
+        "role": "Companion",
+        "parutionYear": 1998,
+        "gender": "Male",
+        "hairColor": "None",
+        "continent": "Asia"
+        },
+        {
+        "name": "Timon",
+        "clothingColor": "Beige and Brown",
+        "role": "Companion",
+        "parutionYear": 1994,
+        "gender": "Male",
+        "hairColor": "Brown",
+        "continent": "Africa"
+        },
+        {
+        "name": "Pumbaa",
+        "clothingColor": "Brown",
+        "role": "Companion",
+        "parutionYear": 1994,
+        "gender": "Male",
+        "hairColor": "Brown",
+        "continent": "Africa"
+        },
+        {
+        "name": "Olaf",
+        "clothingColor": "White",
+        "role": "Companion",
+        "parutionYear": 2013,
+        "gender": "Male",
+        "hairColor": "None",
+        "continent": "Europe"
+        },
+        {
+        "name": "Pegasus",
+        "clothingColor": "White",
+        "role": "Companion",
+        "parutionYear": 1997,
+        "gender": "Male",
+        "hairColor": "Blue",
+        "continent": "Europe"
+        }
+    ]
 }
