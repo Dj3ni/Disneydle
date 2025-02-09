@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "content": "Eh oui, le passé est douloureux, mais à mon sens, on peut soit le fuir, soit tout en apprendre.",
+        "clip": "https://www.youtube.com/watch?v=xyz123",
+        "character": "Rafiki"
+    },
+    {
+        "id": "2",
+        "content": "Hakuna Matata ! Ça veut dire pas de souci !",
+        "clip": "https://www.youtube.com/watch?v=abc456",
+        "character": "Pumbaa"
+    },
+    {
+        "id": "3",
+        "content": "Tu sais ce qu'il faut faire quand la vie te joue un sale tour ? Nage droit d'vant toi.",
+        "clip": "https://www.youtube.com/watch?v=def789",
+        "character": "Dory"
+    },
+    {
+        "id": "4",
+        "content": "Libérée, délivrée ! Je ne mentirai plus jamais.",
+        "clip": "https://www.youtube.com/watch?v=ghi012",
+        "character": "Elsa"
+    },
+    {
+        "id": "5",
+        "content": "Un jour mon prince viendra.",
+        "clip": "https://www.youtube.com/watch?v=jkl345",
+        "character": "Blanche-Neige"
+    },
+    {
+        "id": "6",
+        "content": "Ce n’est pas ce que l’on regarde qui compte, c’est ce que l’on voit.",
+        "clip": "https://www.youtube.com/watch?v=lmn678",
+        "character": "Pocahontas"
+    },
+    {
+        "id": "7",
+        "content": "L’aventure, c’est l’aventure !",
+        "clip": "https://www.youtube.com/watch?v=opq901",
+        "character": "Aladdin"
+    }
+]

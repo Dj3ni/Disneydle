@@ -14,11 +14,15 @@ MVP
 
 ## Ressources
 - Lorcana api: https://lorcana-api.com/
+ --> https://lorcana-api.com/docs/cards/fetching-cards
 - Disney Characters api: https://disneyapi.dev/
+--> https://publicapi.dev/disney-api
 - Disney Wiki: https://disney.fandom.com/fr/wiki
 - Vidéos chansons : https://www.youtube.com/playlist?list=PLU5-6mn9YBf2GRSsGqTnr4Hmosr7zaqck
+- converter chansons: https://cnvmp3.com/v10
 
 ## Technologies
 - Frontend: React
 - Backend: C#
+voir pour stockage DB : https://learn.microsoft.com/fr-fr/sql/relational-databases/blob/filestream-sql-server?view=sql-server-ver16
 
