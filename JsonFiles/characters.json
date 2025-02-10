@@ -7,6 +7,7 @@
     "parutionYear": 1928,
     "gender": "Male",
     "hairColor": "None",
+    "type":"Mouse",
     "continent": "North America"
     },
     {
@@ -16,6 +17,7 @@
     "parutionYear": 1934,
     "gender": "Male",
     "hairColor": "White",
+    "type": "Bird",
     "continent": "North America"
     },
     {
@@ -25,6 +27,7 @@
     "parutionYear": 1950,
     "gender": "Female",
     "hairColor": "Blonde",
+    "type": "Human",
     "continent": "Europe"
     },
     {
@@ -34,6 +37,7 @@
     "parutionYear": 1959,
     "gender": "Female",
     "hairColor": "Black",
+    "type": "Dark Fairy",
     "continent": "Europe"
     },
     {
@@ -43,6 +47,7 @@
     "parutionYear": 1998,
     "gender": "Female",
     "hairColor": "Black",
+    "type": "Human",
     "continent": "Asia"
     },
     {
@@ -52,6 +57,7 @@
     "parutionYear": 1994,
     "gender": "Male",
     "hairColor": "Golden",
+    "type": "Lion",
     "continent": "Africa"
     },
     {
@@ -61,6 +67,7 @@
     "parutionYear": 1989,
     "gender": "Female",
     "hairColor": "Red",
+    "type": "Mermaid",
     "continent": "Europe"
     },
     {
@@ -70,6 +77,7 @@
     "parutionYear": 2013,
     "gender": "Female",
     "hairColor": "Blonde",
+    "type": "Magical Human",
     "continent": "Europe"
     },
     {
@@ -79,6 +87,7 @@
     "parutionYear": 1992,
     "gender": "Male",
     "hairColor": "Black",
+    "type": "Human",
     "continent": "Asia"
     },
     {
@@ -87,7 +96,8 @@
     "role": "Sidekick",
     "parutionYear": 1992,
     "gender": "Male",
-    "hairColor": "None",
+    "hairColor": "Black",
+    "type": "Genie",
     "continent": "Asia"
     },
     {
@@ -106,6 +116,7 @@
     "parutionYear": 1997,
     "gender": "Male",
     "hairColor": "Orange",
+    "type": "Demigod",
     "continent": "Europe"
     },
     {
@@ -115,6 +126,7 @@
     "parutionYear": 1997,
     "gender": "Male",
     "hairColor": "Blue Flames",
+    "type": "God",
     "continent": "Europe"
     },
     {
@@ -124,6 +136,7 @@
     "parutionYear": 2009,
     "gender": "Female",
     "hairColor": "Black",
+    "type": "Human",
     "continent": "North America"
     },
     {
@@ -133,6 +146,7 @@
     "parutionYear": 2010,
     "gender": "Female",
     "hairColor": "Blonde",
+    "type": "Magical Human",
     "continent": "Europe"
     },
     {
@@ -142,6 +156,7 @@
     "parutionYear": 2016,
     "gender": "Female",
     "hairColor": "Brown",
+    "type": "Human",
     "continent": "Oceania"
     },
     {
@@ -151,6 +166,7 @@
     "parutionYear": 2016,
     "gender": "Male",
     "hairColor": "Black",
+    "type": "Demigod",
     "continent": "Oceania"
     },
     {
@@ -160,6 +176,7 @@
     "parutionYear": 1994,
     "gender": "Male",
     "hairColor": "Black",
+    "type": "Lion",
     "continent": "Africa"
     },
     {
@@ -169,6 +186,7 @@
     "parutionYear": 1953,
     "gender": "Male",
     "hairColor": "Red",
+    "type":"Enchanted human",
     "continent": "Europe"
     },
     {
@@ -178,6 +196,7 @@
     "parutionYear": 1953,
     "gender": "Male",
     "hairColor": "Black",
+    "type": "Human",
     "continent": "Europe"
 },
     {
@@ -187,6 +206,7 @@
     "parutionYear": 2010,
     "gender": "Male",
     "hairColor": "None",
+    "type": "Chameleon",
     "continent": "Europe"
     },
     {
@@ -196,6 +216,7 @@
     "parutionYear": 1995,
     "gender": "Male",
     "hairColor": "Grey",
+    "type": "Raccoon",
     "continent": "North America"
     },
     {
@@ -205,6 +226,7 @@
     "parutionYear": 1992,
     "gender": "Male",
     "hairColor": "Brown",
+    "type": "Monkey",
     "continent": "Asia"
     },
     {
@@ -214,6 +236,7 @@
     "parutionYear": 1989,
     "gender": "Male",
     "hairColor": "None",
+    "type": "Crab",
     "continent": "Caribbean"
     },
     {
@@ -223,6 +246,7 @@
     "parutionYear": 1989,
     "gender": "Male",
     "hairColor": "None",
+    "type": "Dog",
     "continent": "Caribbean"
     },
     {
@@ -232,6 +256,7 @@
     "parutionYear": 1998,
     "gender": "Male",
     "hairColor": "None",
+    "type": "Dragon",
     "continent": "Asia"
     },
     {
@@ -241,6 +266,7 @@
     "parutionYear": 1994,
     "gender": "Male",
     "hairColor": "Brown",
+    "type": "Meerkat",
     "continent": "Africa"
     },
     {
@@ -250,6 +276,7 @@
     "parutionYear": 1994,
     "gender": "Male",
     "hairColor": "Brown",
+    "type": "Warthog",
     "continent": "Africa"
     },
     {
@@ -259,6 +286,7 @@
     "parutionYear": 2013,
     "gender": "Male",
     "hairColor": "None",
+    "type": "Snowman",
     "continent": "Europe"
     },
     {
@@ -268,6 +296,7 @@
     "parutionYear": 1997,
     "gender": "Male",
     "hairColor": "Blue",
+    "type": "Flying horse",
     "continent": "Europe"
     }
 ]
