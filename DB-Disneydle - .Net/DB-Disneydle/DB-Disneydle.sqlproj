@@ -57,8 +57,17 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Table" />
+    <Folder Include="Scripts" />
+    <Folder Include="StoredProcedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Table\Character.sql" />
+    <Build Include="Table\Song.sql" />
+    <Build Include="Table\Quote.sql" />
+    <Build Include="Table\SongCharacter.sql" />
+    <Build Include="StoredProcedures\SP_Chararcter_Insert.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />
   </ItemGroup>
 </Project>
