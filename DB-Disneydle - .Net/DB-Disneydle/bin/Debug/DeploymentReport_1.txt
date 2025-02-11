@@ -1,0 +1,22 @@
+﻿** Met en surbrillance
+     Tables qui seront recréées avec les données migrées
+       Aucun
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       Aucun
+
+** Actions de l'utilisateur
+     Supprimer
+       contrainte sans nom sur [dbo].[Character] (Contrainte de validation)
+       contrainte sans nom sur [dbo].[Character] (Contrainte de validation)
+       contrainte sans nom sur [dbo].[Character] (Contrainte de validation)
+     Créer
+       Contrainte de validation: contrainte sans nom sur [dbo].[Character] (Contrainte de validation)
+       Contrainte de validation: contrainte sans nom sur [dbo].[Character] (Contrainte de validation)
+       Contrainte de validation: contrainte sans nom sur [dbo].[Character] (Contrainte de validation)
+       [dbo].[SP_Character_Insert] (Procédure)
+
+** Actions de support

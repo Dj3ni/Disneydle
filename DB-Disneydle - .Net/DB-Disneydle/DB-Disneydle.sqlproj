@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{11b6f015-99e0-49cd-934f-91e35821bb0a}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -65,7 +65,7 @@
     <Build Include="Table\Song.sql" />
     <Build Include="Table\Quote.sql" />
     <Build Include="Table\SongCharacter.sql" />
-    <Build Include="StoredProcedures\SP_Chararcter_Insert.sql" />
+    <Build Include="StoredProcedures\SP_Character_Insert.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />

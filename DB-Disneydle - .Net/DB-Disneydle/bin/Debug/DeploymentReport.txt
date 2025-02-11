@@ -1,0 +1,27 @@
+﻿** Met en surbrillance
+     Tables qui seront recréées avec les données migrées
+       Aucun
+     Index ordonnés en clusters à supprimer
+       Aucun
+     Index ordonnés en clusters à créer.
+       Aucun
+     Problèmes de données possibles
+       Aucun
+
+** Actions de l'utilisateur
+     Créer
+       [dbo].[Character] (Table)
+       [dbo].[Quote] (Table)
+       [dbo].[Song] (Table)
+       [dbo].[SongCharacter] (Table)
+       Contrainte par défaut: contrainte sans nom sur [dbo].[Character] (Contrainte par défaut)
+       Clé étrangère: contrainte sans nom sur [dbo].[Quote] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[SongCharacter] (Clé étrangère)
+       Clé étrangère: contrainte sans nom sur [dbo].[SongCharacter] (Clé étrangère)
+       Contrainte de validation: contrainte sans nom sur [dbo].[Character] (Contrainte de validation)
+       Contrainte de validation: contrainte sans nom sur [dbo].[Character] (Contrainte de validation)
+       Contrainte de validation: contrainte sans nom sur [dbo].[Character] (Contrainte de validation)
+       Contrainte de validation: contrainte sans nom sur [dbo].[Quote] (Contrainte de validation)
+       [dbo].[SP_Character_Insert] (Procédure)
+
+** Actions de support

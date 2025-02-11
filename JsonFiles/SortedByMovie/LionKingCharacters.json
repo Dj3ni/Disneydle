@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Simba",
+        "clothingColor": "Golden",
+        "role": "Protagonist",
+        "parutionYear": 1994,
+        "gender": "Male",
+        "hairColor": "Golden",
+        "type": "Lion",
+        "continent": "Africa"
+    },
+    {
+        "name": "Mufasa",
+        "clothingColor": "Golden and Brown",
+        "role": "Mentor",
+        "parutionYear": 1994,
+        "gender": "Male",
+        "hairColor": "Golden",
+        "type": "Lion",
+        "continent": "Africa"
+    },
+    {
+        "name": "Scar",
+        "clothingColor": "Brown and Black",
+        "role": "Antagonist",
+        "parutionYear": 1994,
+        "gender": "Male",
+        "hairColor": "Black",
+        "type": "Lion",
+        "continent": "Africa"
+    },
+    {
+        "name": "Timon",
+        "clothingColor": "Beige and Brown",
+        "role": "Companion",
+        "parutionYear": 1994,
+        "gender": "Male",
+        "hairColor": "Brown",
+        "type": "Meerkat",
+        "continent": "Africa"
+},
+{
+        "name": "Pumbaa",
+        "clothingColor": "Brown",
+        "role": "Companion",
+        "parutionYear": 1994,
+        "gender": "Male",
+        "hairColor": "Brown",
+        "type": "Warthog",
+        "continent": "Africa"
+    },
+    {
+        "name": "Nala",
+        "clothingColor": "Golden",
+        "role": "Protagonist",
+        "parutionYear": 1994,
+        "gender": "Female",
+        "hairColor": "Golden",
+        "type": "Lion",
+        "continent": "Africa"
+    },
+    {
+        "name": "Rafiki",
+        "clothingColor": "Gray and Blue",
+        "role": "Mentor",
+        "parutionYear": 1994,
+        "gender": "Male",
+        "hairColor": "Gray",
+        "type": "Mandrill",
+        "continent": "Africa"
+    },
+    {
+        "name": "Zazu",
+        "clothingColor": "Blue and White",
+        "role": "Advisor",
+        "parutionYear": 1994,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Hornbill",
+        "continent": "Africa"
+    }
+]

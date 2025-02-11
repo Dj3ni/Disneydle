@@ -1,0 +1,42 @@
+[
+    {
+    "name": "Kuzco",
+    "clothingColor": "Red and Gold",
+    "role": "Protagonist",
+    "parutionYear": 2000,
+    "gender": "Male",
+    "hairColor": "Black",
+    "type": "Human",
+    "continent": "South America"
+    },
+    {
+    "name": "Pacha",
+    "clothingColor": "Green and Brown",
+    "role": "Sidekick",
+    "parutionYear": 2000,
+    "gender": "Male",
+    "hairColor": "Black",
+    "type": "Human",
+    "continent": "South America"
+    },
+    {
+    "name": "Yzma",
+    "clothingColor": "Purple and Black",
+    "role": "Antagonist",
+    "parutionYear": 2000,
+    "gender": "Female",
+    "hairColor": "Gray",
+    "type": "Human",
+    "continent": "South America"
+    },
+    {
+    "name": "Kronk",
+    "clothingColor": "Blue and Yellow",
+    "role": "Sidekick",
+    "parutionYear": 2000,
+    "gender": "Male",
+    "hairColor": "Brown",
+    "type": "Human",
+    "continent": "South America"
+    }
+]
