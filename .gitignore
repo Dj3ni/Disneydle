@@ -1,1 +1,92 @@
 /node_modules
+
+# 🔹 Visual Studio & .NET build artifacts
+bin/
+obj/
+out/
+
+*.exe
+*.dll
+*.pdb
+*.appx
+*.appxbundle
+*.msi
+*.nupkg
+*.snupkg
+*.vsix
+*.log
+*.cache
+*.db
+# 🔹 Fichiers d'indexation de Visual Studio
+.vs/
+
+# 🔹 Visual Studio Code settings
+.vscode/
+
+# 🔹 User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 🔹 NuGet dependencies
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+global.json
+
+# 🔹 Logs & temp files
+logs/
+*.log
+*.tlog
+*.pidb
+*.ilk
+*.obj
+*.pch
+*.rsp
+*.sdf
+*.suo
+*.cache
+*.pdb
+*.db
+*.opendb
+*.mdf
+*.ldf
+*.sqlite
+
+# 🔹 Entity Framework Migrations
+Migrations/
+
+# 🔹 ASP.NET temporary files
+wwwroot/node_modules/
+wwwroot/lib/
+wwwroot/dist/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# 🔹 Rider / JetBrains
+.idea/
+*.sln.iml
+
+# 🔹 SSDT (SQL Server Data Tools)
+*.sqlproj.user
+*.bak
+*.mdf
+*.ldf
+*.dbmdl
+
+# 🔹 Docker
+docker-compose.override.yml
+.dockerignore
+
+# 🔹 Secrets & Configuration files
+secrets.json
+appsettings.Development.json
+.env
+.env.local
+
+# 🔹 MacOS & Linux
+.DS_Store
+._*
