@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DB-Disneydle", "DB-Disneydle\DB-Disneydle.sqlproj", "{11B6F015-99E0-49CD-934F-91E35821BB0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{174FEB2D-649D-4AFF-A13B-8AB00D91564F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{1001E176-3C90-4DF0-B1DC-6739377573C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{CE288266-81E3-4261-A76F-82B67CC0D658}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11B6F015-99E0-49CD-934F-91E35821BB0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B6F015-99E0-49CD-934F-91E35821BB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B6F015-99E0-49CD-934F-91E35821BB0A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{11B6F015-99E0-49CD-934F-91E35821BB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B6F015-99E0-49CD-934F-91E35821BB0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B6F015-99E0-49CD-934F-91E35821BB0A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{174FEB2D-649D-4AFF-A13B-8AB00D91564F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174FEB2D-649D-4AFF-A13B-8AB00D91564F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174FEB2D-649D-4AFF-A13B-8AB00D91564F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174FEB2D-649D-4AFF-A13B-8AB00D91564F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1001E176-3C90-4DF0-B1DC-6739377573C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1001E176-3C90-4DF0-B1DC-6739377573C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1001E176-3C90-4DF0-B1DC-6739377573C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1001E176-3C90-4DF0-B1DC-6739377573C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE288266-81E3-4261-A76F-82B67CC0D658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE288266-81E3-4261-A76F-82B67CC0D658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE288266-81E3-4261-A76F-82B67CC0D658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE288266-81E3-4261-A76F-82B67CC0D658}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
