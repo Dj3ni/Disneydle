@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Robin des Bois",
+        "clothingColor": "Green",
+        "role": "Protagonist",
+        "parutionYear": 1973,
+        "gender": "Male",
+        "hairColor": "Red",
+        "type": "Fox",
+        "continent": "Europe"
+    },
+    {
+        "name": "Marianne",
+        "clothingColor": "Purple and Pink",
+        "role": "Deuteragonist",
+        "parutionYear": 1973,
+        "gender": "Female",
+        "hairColor": "Red",
+        "type": "Fox",
+        "continent": "Europe"
+    },
+    {
+        "name": "Petit Jean",
+        "clothingColor": "Green and Brown",
+        "role": "Sidekick",
+        "parutionYear": 1973,
+        "gender": "Male",
+        "hairColor": "Brown",
+        "type": "Bear",
+        "continent": "Europe"
+    },
+    {
+        "name": "Prince Jean",
+        "clothingColor": "Blue and Gold",
+        "role": "Antagonist",
+        "parutionYear": 1973,
+        "gender": "Male",
+        "hairColor": "Brown",
+        "type": "Lion",
+        "continent": "Europe"
+    },
+    {
+        "name": "Triste Sire",
+        "clothingColor": "Yellow and Red",
+        "role": "Sidekick",
+        "parutionYear": 1973,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Snake",
+        "continent": "Europe"
+    },
+    {
+        "name": "Frère Tuck",
+        "clothingColor": "Brown",
+        "role": "Supporting",
+        "parutionYear": 1973,
+        "gender": "Male",
+        "hairColor": "Brown",
+        "type": "Badger",
+        "continent": "Europe"
+    },
+    {
+        "name": "Le Shérif de Nottingham",
+        "clothingColor": "Gray and Red",
+        "role": "Antagonist",
+        "parutionYear": 1973,
+        "gender": "Male",
+        "hairColor": "Gray",
+        "type": "Wolf",
+        "continent": "Europe"
+    }
+]

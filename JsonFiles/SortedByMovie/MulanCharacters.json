@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Fa Mulan",
+        "clothingColor": "Blue, Green, and Red",
+        "role": "Protagonist",
+        "parutionYear": 1998,
+        "gender": "Female",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "Asia"
+    },
+    {
+        "name": "Mushu",
+        "clothingColor": "Red and Yellow",
+        "role": "Companion",
+        "parutionYear": 1998,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Dragon",
+        "continent": "Asia"
+    },
+    {
+        "name": "Li Shang",
+        "clothingColor": "Black, Red, and Beige",
+        "role": "Supporting",
+        "parutionYear": 1998,
+        "gender": "Male",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "Asia"
+    },
+    {
+        "name": "Shan Yu",
+        "clothingColor": "Black and Gray",
+        "role": "Antagonist",
+        "parutionYear": 1998,
+        "gender": "Male",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "Asia"
+    },
+    {
+        "name": "Grandmother Fa",
+        "clothingColor": "Blue and Purple",
+        "role": "Supporting",
+        "parutionYear": 1998,
+        "gender": "Female",
+        "hairColor": "Gray",
+        "type": "Human",
+        "continent": "Asia"
+    },
+    {
+        "name": "Chien-Po",
+        "clothingColor": "Green",
+        "role": "Supporting",
+        "parutionYear": 1998,
+        "gender": "Male",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "Asia"
+    },
+    {
+        "name": "Ling",
+        "clothingColor": "Yellow and Green",
+        "role": "Supporting",
+        "parutionYear": 1998,
+        "gender": "Male",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "Asia"
+    },
+    {
+        "name": "Yao",
+        "clothingColor": "Brown and Red",
+        "role": "Supporting",
+        "parutionYear": 1998,
+        "gender": "Male",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "Asia"
+    }
+]
+

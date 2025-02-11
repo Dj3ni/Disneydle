@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Hercules",
+        "clothingColor": "Brown and Blue",
+        "role": "Protagonist",
+        "parutionYear": 1997,
+        "gender": "Male",
+        "hairColor": "Orange",
+        "type": "Demi-God",
+        "continent": "Europe"
+    },
+    {
+        "name": "Megara",
+        "clothingColor": "Purple",
+        "role": "Protagonist",
+        "parutionYear": 1997,
+        "gender": "Female",
+        "hairColor": "Brown",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Phil (Philoctetes)",
+        "clothingColor": "Red and Beige",
+        "role": "Mentor",
+        "parutionYear": 1997,
+        "gender": "Male",
+        "hairColor": "Red",
+        "type": "Satyr",
+        "continent": "Europe"
+    },
+    {
+        "name": "Hades",
+        "clothingColor": "Black and Blue",
+        "role": "Antagonist",
+        "parutionYear": 1997,
+        "gender": "Male",
+        "hairColor": "Blue (Flames)",
+        "type": "God",
+        "continent": "Europe"
+    },
+    {
+        "name": "Pain",
+        "clothingColor": "Purple",
+        "role": "Sidekick",
+        "parutionYear": 1997,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Demon",
+        "continent": "Europe"
+    },
+    {
+        "name": "Panic",
+        "clothingColor": "Blue",
+        "role": "Sidekick",
+        "parutionYear": 1997,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Demon",
+        "continent": "Europe"
+    },
+    {
+        "name": "Zeus",
+        "clothingColor": "White and Purple",
+        "role": "Supporting",
+        "parutionYear": 1997,
+        "gender": "Male",
+        "hairColor": "White",
+        "type": "God",
+        "continent": "Europe"
+    },
+    {
+        "name": "Pegasus",
+        "clothingColor": "White and Blue",
+        "role": "Companion",
+        "parutionYear": 1997,
+        "gender": "Male",
+        "hairColor": "White",
+        "type": "Pegasus",
+        "continent": "Europe"
+    }
+]

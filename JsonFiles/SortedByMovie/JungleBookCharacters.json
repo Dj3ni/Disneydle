@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Mowgli",
+        "clothingColor": "Red",
+        "role": "Protagonist",
+        "parutionYear": 1967,
+        "gender": "Male",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "Asia"
+    },
+    {
+        "name": "Baloo",
+        "clothingColor": "Gray",
+        "role": "Deuteragonist",
+        "parutionYear": 1967,
+        "gender": "Male",
+        "hairColor": "Gray",
+        "type": "Bear",
+        "continent": "Asia"
+    },
+    {
+        "name": "Bagheera",
+        "clothingColor": "Black",
+        "role": "Mentor",
+        "parutionYear": 1967,
+        "gender": "Male",
+        "hairColor": "Black",
+        "type": "Panther",
+        "continent": "Asia"
+    },
+    {
+        "name": "Shere Khan",
+        "clothingColor": "Orange and Black",
+        "role": "Antagonist",
+        "parutionYear": 1967,
+        "gender": "Male",
+        "hairColor": "Orange and Black",
+        "type": "Tiger",
+        "continent": "Asia"
+    },
+    {
+        "name": "Kaa",
+        "clothingColor": "Brown and Yellow",
+        "role": "Antagonist",
+        "parutionYear": 1967,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Snake",
+        "continent": "Asia"
+    },
+    {
+        "name": "King Louie",
+        "clothingColor": "Orange and Brown",
+        "role": "Supporting",
+        "parutionYear": 1967,
+        "gender": "Male",
+        "hairColor": "Orange",
+        "type": "Orangutan",
+        "continent": "Asia"
+    },
+    {
+        "name": "Vultures",
+        "clothingColor": "Black and White",
+        "role": "Sidekicks",
+        "parutionYear": 1967,
+        "gender": "Male",
+        "hairColor": "Black and White",
+        "type": "Vultures",
+        "continent": "Asia"
+    }
+]

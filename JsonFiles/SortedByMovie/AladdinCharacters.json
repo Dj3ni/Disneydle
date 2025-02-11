@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Aladdin",
+        "clothingColor": "Purple and White",
+        "role": "Protagonist",
+        "parutionYear": 1992,
+        "gender": "Male",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "Asia"
+    },
+    {
+        "name": "Jasmine",
+        "clothingColor": "Blue",
+        "role": "Protagonist",
+        "parutionYear": 1992,
+        "gender": "Female",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "Asia"
+    },
+    {
+        "name": "Genie",
+        "clothingColor": "Blue and Gold",
+        "role": "Sidekick",
+        "parutionYear": 1992,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Genie",
+        "continent": "Asia"
+    },
+    {
+        "name": "Jafar",
+        "clothingColor": "Black and Red",
+        "role": "Antagonist",
+        "parutionYear": 1992,
+        "gender": "Male",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "Asia"
+    },
+    {
+        "name": "Abu",
+        "clothingColor": "Brown and Red",
+        "role": "Companion",
+        "parutionYear": 1992,
+        "gender": "Male",
+        "hairColor": "Brown",
+        "type": "Monkey",
+        "continent": "Asia"
+    },
+    {
+        "name": "Iago",
+        "clothingColor": "Red and Blue",
+        "role": "Companion",
+        "parutionYear": 1992,
+        "gender": "Male",
+        "hairColor": "Red",
+        "type": "Parrot",
+        "continent": "Asia"
+    },
+    {
+        "name": "Sultan",
+        "clothingColor": "White and Gold",
+        "role": "Supporting",
+        "parutionYear": 1992,
+        "gender": "Male",
+        "hairColor": "White",
+        "type": "Human",
+        "continent": "Asia"
+    },
+    {
+        "name": "Rajah",
+        "clothingColor": "Orange and Black",
+        "role": "Companion",
+        "parutionYear": 1992,
+        "gender": "Male",
+        "hairColor": "Orange",
+        "type": "Tiger",
+        "continent": "Asia"
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Moana",
+        "clothingColor": "Red and Beige",
+        "role": "Protagonist",
+        "parutionYear": 2016,
+        "gender": "Female",
+        "hairColor": "Brown",
+        "type": "Human",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Maui",
+        "clothingColor": "Brown (Tattoos)",
+        "role": "Protagonist",
+        "parutionYear": 2016,
+        "gender": "Male",
+        "hairColor": "Black",
+        "type": "Demi-God",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Te Kā / Te Fiti",
+        "clothingColor": "Green (Te Fiti) / Lava (Te Kā)",
+        "role": "Antagonist turned Ally",
+        "parutionYear": 2016,
+        "gender": "Female",
+        "hairColor": "Green (Te Fiti) / Red and Black (Te Kā)",
+        "type": "Goddess",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Heihei",
+        "clothingColor": "Red, Blue, and Green",
+        "role": "Companion",
+        "parutionYear": 2016,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Rooster",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Pua",
+        "clothingColor": "White and Pink",
+        "role": "Sidekick",
+        "parutionYear": 2016,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Pig",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Tamatoa",
+        "clothingColor": "Purple and Blue",
+        "role": "Antagonist",
+        "parutionYear": 2016,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Crab",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Tala",
+        "clothingColor": "Beige and Brown",
+        "role": "Mentor",
+        "parutionYear": 2016,
+        "gender": "Female",
+        "hairColor": "Gray",
+        "type": "Human",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Tui",
+        "clothingColor": "Brown and Blue",
+        "role": "Supporting",
+        "parutionYear": 2016,
+        "gender": "Male",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "Oceania"
+    },
+    {
+        "name": "Sina",
+        "clothingColor": "Pink and Brown",
+        "role": "Supporting",
+        "parutionYear": 2016,
+        "gender": "Female",
+        "hairColor": "Brown",
+        "type": "Human",
+        "continent": "Oceania"
+    }
+]

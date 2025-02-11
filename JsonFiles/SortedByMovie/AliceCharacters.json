@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Alice",
+        "clothingColor": "Blue and White",
+        "role": "Protagonist",
+        "parutionYear": 1951,
+        "gender": "Female",
+        "hairColor": "Blond",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Mad Hatter",
+        "clothingColor": "Green and Yellow",
+        "role": "Supporting",
+        "parutionYear": 1951,
+        "gender": "Male",
+        "hairColor": "White",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "March Hare",
+        "clothingColor": "Red and Yellow",
+        "role": "Supporting",
+        "parutionYear": 1951,
+        "gender": "Male",
+        "hairColor": "Brown",
+        "type": "Hare",
+        "continent": "Europe"
+    },
+    {
+        "name": "Cheshire's Cat",
+        "clothingColor": "Pink and Purple",
+        "role": "Sidekick",
+        "parutionYear": 1951,
+        "gender": "Male",
+        "hairColor": "Pink and Purple",
+        "type": "Cat",
+        "continent": "Europe"
+    },
+    {
+        "name": "Queen of Hearts",
+        "clothingColor": "Red, Black, and Yellow",
+        "role": "Antagonist",
+        "parutionYear": 1951,
+        "gender": "Female",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "The White Rabbit",
+        "clothingColor": "Red and White",
+        "role": "Supporting",
+        "parutionYear": 1951,
+        "gender": "Male",
+        "hairColor": "White",
+        "type": "Rabbit",
+        "continent": "Europe"
+    },
+    {
+        "name": "Tweedle Dee & Tweedle Dum",
+        "clothingColor": "Red and Yellow",
+        "role": "Sidekicks",
+        "parutionYear": 1951,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Human",
+        "continent": "Europe"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Rapunzel",
+        "clothingColor": "Purple and Pink",
+        "role": "Protagonist",
+        "parutionYear": 2010,
+        "gender": "Female",
+        "hairColor": "Blond (Golden)",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Flynn Rider",
+        "clothingColor": "Blue and Brown",
+        "role": "Protagonist",
+        "parutionYear": 2010,
+        "gender": "Male",
+        "hairColor": "Brown",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Mère Gothel",
+        "clothingColor": "Red and Black",
+        "role": "Antagonist",
+        "parutionYear": 2010,
+        "gender": "Female",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Pascal",
+        "clothingColor": "Green",
+        "role": "Companion",
+        "parutionYear": 2010,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Chameleon",
+        "continent": "Europe"
+    },
+    {
+        "name": "Maximus",
+        "clothingColor": "White",
+        "role": "Sidekick",
+        "parutionYear": 2010,
+        "gender": "Male",
+        "hairColor": "White",
+        "type": "Horse",
+        "continent": "Europe"
+    },
+    {
+        "name": "Stabbington Brothers",
+        "clothingColor": "Brown and Black",
+        "role": "Antagonists",
+        "parutionYear": 2010,
+        "gender": "Male",
+        "hairColor": "Red",
+        "type": "Human",
+        "continent": "Europe"
+    }
+]

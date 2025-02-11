@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Elsa",
+        "clothingColor": "Blue and White",
+        "role": "Protagonist",
+        "parutionYear": 2013,
+        "gender": "Female",
+        "hairColor": "Blond",
+        "type": "Human - Born magical",
+        "continent": "Europe"
+    },
+    {
+        "name": "Anna",
+        "clothingColor": "Blue, Black, and Purple",
+        "role": "Protagonist",
+        "parutionYear": 2013,
+        "gender": "Female",
+        "hairColor": "Auburn",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Olaf",
+        "clothingColor": "White",
+        "role": "Companion",
+        "parutionYear": 2013,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Snowman",
+        "continent": "Europe"
+    },
+    {
+        "name": "Kristoff",
+        "clothingColor": "Brown and Black",
+        "role": "Supporting",
+        "parutionYear": 2013,
+        "gender": "Male",
+        "hairColor": "Blond",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Sven",
+        "clothingColor": "Brown and White",
+        "role": "Companion",
+        "parutionYear": 2013,
+        "gender": "Male",
+        "hairColor": "Brown",
+        "type": "Reindeer",
+        "continent": "Europe"
+    },
+    {
+        "name": "Hans",
+        "clothingColor": "White and Blue",
+        "role": "Antagonist",
+        "parutionYear": 2013,
+        "gender": "Male",
+        "hairColor": "Auburn",
+        "type": "Human",
+        "continent": "Europe"
+    }
+]

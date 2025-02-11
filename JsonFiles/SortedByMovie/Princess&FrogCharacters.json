@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Tiana",
+        "clothingColor": "Green and Yellow",
+        "role": "Protagonist",
+        "parutionYear": 2009,
+        "gender": "Female",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "North America"
+    },
+    {
+        "name": "Prince Naveen",
+        "clothingColor": "Green and Beige",
+        "role": "Deuteragonist",
+        "parutionYear": 2009,
+        "gender": "Male",
+        "hairColor": "Brown",
+        "type": "Human",
+        "continent": "South America"
+    },
+    {
+        "name": "Dr. Facilier",
+        "clothingColor": "Black and Purple",
+        "role": "Antagonist",
+        "parutionYear": 2009,
+        "gender": "Male",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "North America"
+    },
+    {
+        "name": "Louis",
+        "clothingColor": "Green",
+        "role": "Sidekick",
+        "parutionYear": 2009,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Alligator",
+        "continent": "North America"
+    },
+    {
+        "name": "Ray",
+        "clothingColor": "Yellow",
+        "role": "Sidekick",
+        "parutionYear": 2009,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Firefly",
+        "continent": "North America"
+    },
+    {
+        "name": "Charlotte La Bouff",
+        "clothingColor": "Pink",
+        "role": "Supporting",
+        "parutionYear": 2009,
+        "gender": "Female",
+        "hairColor": "Blond",
+        "type": "Human",
+        "continent": "North America"
+    },
+    {
+        "name": "Mama Odie",
+        "clothingColor": "White and Yellow",
+        "role": "Mentor",
+        "parutionYear": 2009,
+        "gender": "Female",
+        "hairColor": "White",
+        "type": "Human",
+        "continent": "North America"
+    }
+]

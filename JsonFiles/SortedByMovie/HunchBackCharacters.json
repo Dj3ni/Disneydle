@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Quasimodo",
+        "clothingColor": "Green",
+        "role": "Protagonist",
+        "parutionYear": 1996,
+        "gender": "Male",
+        "hairColor": "Red",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Esmeralda",
+        "clothingColor": "White and Purple",
+        "role": "Protagonist",
+        "parutionYear": 1996,
+        "gender": "Female",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Djali",
+        "clothingColor": "White and Grey",
+        "role": "Companion",
+        "parutionYear": 1996,
+        "gender": "Female",
+        "hairColor": "White and Grey",
+        "type": "Goat",
+        "continent": "Europe"
+    },
+    {
+        "name": "Claude Frollo",
+        "clothingColor": "Black and Purple",
+        "role": "Antagonist",
+        "parutionYear": 1996,
+        "gender": "Male",
+        "hairColor": "Gray",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Phoebus",
+        "clothingColor": "Blue and Gold",
+        "role": "Supporting",
+        "parutionYear": 1996,
+        "gender": "Male",
+        "hairColor": "Blond",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Clopin",
+        "clothingColor": "Purple and Yellow",
+        "role": "Supporting",
+        "parutionYear": 1996,
+        "gender": "Male",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Victor",
+        "clothingColor": "Gray",
+        "role": "Sidekick",
+        "parutionYear": 1996,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Gargoyle",
+        "continent": "Europe"
+    },
+    {
+        "name": "Hugo",
+        "clothingColor": "Gray",
+        "role": "Sidekick",
+        "parutionYear": 1996,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Gargoyle",
+        "continent": "Europe"
+    },
+    {
+        "name": "Laverne",
+        "clothingColor": "Gray",
+        "role": "Sidekick",
+        "parutionYear": 1996,
+        "gender": "Female",
+        "hairColor": "None",
+        "type": "Gargoyle",
+        "continent": "Europe"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Tarzan",
+        "clothingColor": "Brown (Loincloth)",
+        "role": "Protagonist",
+        "parutionYear": 1999,
+        "gender": "Male",
+        "hairColor": "Brown",
+        "type": "Human",
+        "continent": "Africa"
+    },
+    {
+        "name": "Jane Porter",
+        "clothingColor": "Yellow and White",
+        "role": "Deuteragonist",
+        "parutionYear": 1999,
+        "gender": "Female",
+        "hairColor": "Brown",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Kala",
+        "clothingColor": "Gray",
+        "role": "Supporting",
+        "parutionYear": 1999,
+        "gender": "Female",
+        "hairColor": "Gray",
+        "type": "Gorilla",
+        "continent": "Africa"
+    },
+    {
+        "name": "Kerchak",
+        "clothingColor": "Dark Gray",
+        "role": "Supporting",
+        "parutionYear": 1999,
+        "gender": "Male",
+        "hairColor": "Dark Gray",
+        "type": "Gorilla",
+        "continent": "Africa"
+    },
+    {
+        "name": "Terk",
+        "clothingColor": "Dark Gray",
+        "role": "Sidekick",
+        "parutionYear": 1999,
+        "gender": "Female",
+        "hairColor": "Dark Gray",
+        "type": "Gorilla",
+        "continent": "Africa"
+    },
+    {
+        "name": "Tantor",
+        "clothingColor": "Red",
+        "role": "Sidekick",
+        "parutionYear": 1999,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Elephant",
+        "continent": "Africa"
+    },
+    {
+        "name": "Clayton",
+        "clothingColor": "Yellow and Brown",
+        "role": "Antagonist",
+        "parutionYear": 1999,
+        "gender": "Male",
+        "hairColor": "Brown",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Professor Archimedes Q. Porter",
+        "clothingColor": "White and Brown",
+        "role": "Supporting",
+        "parutionYear": 1999,
+        "gender": "Male",
+        "hairColor": "White",
+        "type": "Human",
+        "continent": "Europe"
+    }
+]

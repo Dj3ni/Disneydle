@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Pocahontas",
+        "clothingColor": "Beige",
+        "role": "Protagonist",
+        "parutionYear": 1995,
+        "gender": "Female",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "North America"
+    },
+    {
+        "name": "John Smith",
+        "clothingColor": "Blue and Gray",
+        "role": "Deuteragonist",
+        "parutionYear": 1995,
+        "gender": "Male",
+        "hairColor": "Blond",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Meeko",
+        "clothingColor": "Gray and Black",
+        "role": "Companion",
+        "parutionYear": 1995,
+        "gender": "Male",
+        "hairColor": "Gray",
+        "type": "Raccoon",
+        "continent": "North America"
+    },
+    {
+        "name": "Governor Ratcliffe",
+        "clothingColor": "Purple and Red",
+        "role": "Antagonist",
+        "parutionYear": 1995,
+        "gender": "Male",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Grandmother Willow",
+        "clothingColor": "Brown and Green",
+        "role": "Mentor",
+        "parutionYear": 1995,
+        "gender": "Female",
+        "hairColor": "None",
+        "type": "Tree Spirit",
+        "continent": "North America"
+    },
+    {
+        "name": "Thomas",
+        "clothingColor": "Blue and Beige",
+        "role": "Supporting",
+        "parutionYear": 1995,
+        "gender": "Male",
+        "hairColor": "Blond",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Nakoma",
+        "clothingColor": "Beige",
+        "role": "Supporting",
+        "parutionYear": 1995,
+        "gender": "Female",
+        "hairColor": "Black",
+        "type": "Human",
+        "continent": "North America"
+    },
+    {
+        "name": "Flit",
+        "clothingColor": "Green and Red",
+        "role": "Companion",
+        "parutionYear": 1995,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Hummingbird",
+        "continent": "North America"
+    }
+]

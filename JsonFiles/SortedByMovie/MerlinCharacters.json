@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Arthur (Moustique)",
+        "clothingColor": "Red and Brown",
+        "role": "Protagonist",
+        "parutionYear": 1963,
+        "gender": "Male",
+        "hairColor": "Blond",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Merlin",
+        "clothingColor": "Blue",
+        "role": "Mentor",
+        "parutionYear": 1963,
+        "gender": "Male",
+        "hairColor": "White",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Archimède",
+        "clothingColor": "Brown and White",
+        "role": "Sidekick",
+        "parutionYear": 1963,
+        "gender": "Male",
+        "hairColor": "Brown",
+        "type": "Owl",
+        "continent": "Europe"
+    },
+    {
+        "name": "Madam Mim",
+        "clothingColor": "Purple",
+        "role": "Antagonist",
+        "parutionYear": 1963,
+        "gender": "Female",
+        "hairColor": "Purple",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Sir Hector",
+        "clothingColor": "Brown",
+        "role": "Supporting",
+        "parutionYear": 1963,
+        "gender": "Male",
+        "hairColor": "Brown",
+        "type": "Human",
+        "continent": "Europe"
+    },
+    {
+        "name": "Kay",
+        "clothingColor": "Red",
+        "role": "Supporting",
+        "parutionYear": 1963,
+        "gender": "Male",
+        "hairColor": "Brown",
+        "type": "Human",
+        "continent": "Europe"
+    }
+]

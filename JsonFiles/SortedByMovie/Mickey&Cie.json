@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Mickey Mouse",
+        "clothingColor": "Red and Yellow",
+        "role": "Protagonist",
+        "parutionYear": 1928,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Mouse",
+        "continent": "North America"
+    },
+    {
+        "name": "Minnie Mouse",
+        "clothingColor": "Pink or Red with Polka Dots",
+        "role": "Supporting",
+        "parutionYear": 1928,
+        "gender": "Female",
+        "hairColor": "None",
+        "type": "Mouse",
+        "continent": "North America"
+    },
+    {
+        "name": "Donald Duck",
+        "clothingColor": "Blue and White",
+        "role": "Sidekick",
+        "parutionYear": 1934,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Duck",
+        "continent": "North America"
+    },
+    {
+        "name": "Daisy Duck",
+        "clothingColor": "Purple and Pink",
+        "role": "Supporting",
+        "parutionYear": 1940,
+        "gender": "Female",
+        "hairColor": "None",
+        "type": "Duck",
+        "continent": "North America"
+    },
+    {
+        "name": "Dingo (Goofy)",
+        "clothingColor": "Orange, Blue, and Green",
+        "role": "Sidekick",
+        "parutionYear": 1932,
+        "gender": "Male",
+        "hairColor": "Black",
+        "type": "Dog",
+        "continent": "North America"
+    },
+    {
+        "name": "Pluto",
+        "clothingColor": "Yellow",
+        "role": "Companion",
+        "parutionYear": 1930,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Dog",
+        "continent": "North America"
+    },
+    {
+        "name": "Picsou (Scrooge McDuck)",
+        "clothingColor": "Red and Blue",
+        "role": "Supporting",
+        "parutionYear": 1947,
+        "gender": "Male",
+        "hairColor": "White",
+        "type": "Duck",
+        "continent": "North America"
+    },
+    {
+        "name": "Pat Hibulaire",
+        "clothingColor": "Black and Red",
+        "role": "Antagonist",
+        "parutionYear": 1925,
+        "gender": "Male",
+        "hairColor": "Black",
+        "type": "Cat",
+        "continent": "North America"
+    },
+    {
+        "name": "Riri",
+        "clothingColor": "Red",
+        "role": "Supporting",
+        "parutionYear": 1937,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Duck",
+        "continent": "North America"
+    },
+    {
+        "name": "Fifi",
+        "clothingColor": "Blue",
+        "role": "Supporting",
+        "parutionYear": 1937,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Duck",
+        "continent": "North America"
+    },
+    {
+        "name": "Loulou",
+        "clothingColor": "Green",
+        "role": "Supporting",
+        "parutionYear": 1937,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Duck",
+        "continent": "North America"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Nemo",
+        "clothingColor": "Orange, White, and Black",
+        "role": "Protagonist",
+        "parutionYear": 2003,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Clownfish",
+        "continent": "Ocean"
+    },
+    {
+        "name": "Marin",
+        "clothingColor": "Orange, White, and Black",
+        "role": "Deuteragonist",
+        "parutionYear": 2003,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Clownfish",
+        "continent": "Ocean"
+    },
+    {
+        "name": "Dory",
+        "clothingColor": "Blue and Yellow",
+        "role": "Sidekick",
+        "parutionYear": 2003,
+        "gender": "Female",
+        "hairColor": "None",
+        "type": "Regal Blue Tang",
+        "continent": "Ocean"
+    },
+    {
+        "name": "Bruce",
+        "clothingColor": "Gray",
+        "role": "Supporting",
+        "parutionYear": 2003,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Great White Shark",
+        "continent": "Ocean"
+    },
+    {
+        "name": "Squiz",
+        "clothingColor": "Green",
+        "role": "Supporting",
+        "parutionYear": 2003,
+        "gender": "Male",
+        "hairColor": "None",
+        "type": "Sea Turtle",
+        "continent": "Ocean"
+    },
+    {
+        "name": "Darla",
+        "clothingColor": "Purple",
+        "role": "Antagonist",
+        "parutionYear": 2003,
+        "gender": "Female",
+        "hairColor": "Red",
+        "type": "Human",
+        "continent": "Australia"
+    }
+]
