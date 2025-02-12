@@ -8,3 +8,13 @@ C:\Repo\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\Model.xml
 C:\Repo\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\refactor.xml
 C:\Repo\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\postdeploy.sql
 C:\Repo\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\predeploy.sql
+C:\Repositories\Disneydle\DB-Disneydle - .Net\DB-Disneydle\bin\Debug\DB-Disneydle.dacpac
+C:\Repositories\Disneydle\DB-Disneydle - .Net\DB-Disneydle\bin\Debug\DB_Disneydle.dll
+C:\Repositories\Disneydle\DB-Disneydle - .Net\DB-Disneydle\bin\Debug\DB_Disneydle.pdb
+C:\Repositories\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\DB-Disneydle.sqlproj.AssemblyReference.cache
+C:\Repositories\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\DB_Disneydle.dll
+C:\Repositories\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\DB_Disneydle.pdb
+C:\Repositories\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\Model.xml
+C:\Repositories\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\refactor.xml
+C:\Repositories\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\postdeploy.sql
+C:\Repositories\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\predeploy.sql

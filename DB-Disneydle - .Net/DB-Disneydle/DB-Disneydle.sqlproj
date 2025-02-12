@@ -70,4 +70,7 @@
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="DB-Disneydle.publish.xml" />
+  </ItemGroup>
 </Project>
