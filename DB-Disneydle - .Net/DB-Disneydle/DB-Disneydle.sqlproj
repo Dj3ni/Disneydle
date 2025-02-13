@@ -66,6 +66,7 @@
     <Build Include="Table\Quote.sql" />
     <Build Include="Table\SongCharacter.sql" />
     <Build Include="StoredProcedures\SP_Character_Insert.sql" />
+    <Build Include="StoredProcedures\SP_Character_GetById.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />

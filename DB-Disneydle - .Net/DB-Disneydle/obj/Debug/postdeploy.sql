@@ -157,7 +157,7 @@ Declare @Char5Id int;
 Select @Char5Id = Character_Id From @InsertedCharacterIds
 
 ---- Pascal
-insert into @insertedcharacterids(character_id)
+Insert into @insertedcharacterids(character_id)
 exec sp_character_insert 
 @name ='Pascal', 
 @clothingcolor = 'Green', 

@@ -12,7 +12,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="DB_Disneydle.dll" />
-			<Metadata Name="FileName" Value="C:\REPOSITORIES\DISNEYDLE\DB-DISNEYDLE - .NET\DB-DISNEYDLE\OBJ\DEBUG\DB_DISNEYDLE.DLL" />
+			<Metadata Name="FileName" Value="C:\REPO\DISNEYDLE\DB-DISNEYDLE - .NET\DB-DISNEYDLE\OBJ\DEBUG\DB_DISNEYDLE.DLL" />
 			<Metadata Name="AssemblyName" Value="DB_Disneydle" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -20,7 +20,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="C:\Repositories\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\DB_Disneydle.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Repo\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\DB_Disneydle.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
 	</Header>
@@ -646,6 +646,70 @@
 			<AttachedAnnotation Disambiguator="14" />
 			<AttachedAnnotation Disambiguator="12" />
 			<AttachedAnnotation Disambiguator="11" />
+		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[SP_Character_GetById]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+Begin
+	SELECT	[Character_Id],
+			[Name],
+			[ClothingColor],
+			[Role]
+
+			
+		FROM [Character] 
+	Where [Character_Id] = @Character_ID
+End]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[Character]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Character].[Character_Id]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Character].[Name]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Character].[ClothingColor]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Character].[Role]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[SP_Character_GetById].[@Character_Id]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[SP_Character_GetById].[@Character_Id]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="219" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[SP_Character_GetById]&#xD;&#xA;&#x9;@Character_Id int&#xD;&#xA;&#xD;&#xA;AS" />
+			</Annotation>
 		</Element>
 		<Element Type="SqlProcedure" Name="[dbo].[SP_Character_Insert]">
 			<Property Name="BodyScript">
