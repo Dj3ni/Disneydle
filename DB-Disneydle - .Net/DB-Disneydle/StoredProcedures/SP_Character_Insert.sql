@@ -10,8 +10,24 @@
 
 AS
 BEGIN
-	Insert Into [Character]([Name], [ClothingColor],[Role],[ParutionYear],[Gender],[HairColor],[Type],[Continent])
+	Insert Into [Character]
+		([Name],
+		[ClothingColor],
+		[Role],
+		[ParutionYear],
+		[Gender],
+		[HairColor],
+		[Type],
+		[Continent])
 		Output [Inserted].[Character_Id]
+
 		Values
-			(@name, @clothingColor, @role, @parutionYear,@gender,@hairColor,@type,@continent)
+			(@name,
+			@clothingColor,
+			@role,
+			@parutionYear,
+			@gender,
+			@hairColor,
+			@type,
+			@continent)
 END
