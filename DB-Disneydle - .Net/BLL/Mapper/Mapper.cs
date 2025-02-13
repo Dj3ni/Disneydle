@@ -13,7 +13,7 @@ namespace BLL.Mapper
 		{
 			if(character is null) throw new ArgumentNullException(nameof(character));
 			return new Character(
-					character.Character_Id,
+				character.Character_Id,
 					character.Name,
 					character.ClothingColor,
 					character.Role,

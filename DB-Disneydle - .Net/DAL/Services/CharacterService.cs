@@ -24,7 +24,8 @@ namespace DAL.Services
 		{
 			using (SqlConnection connection = new SqlConnection(_connectionString))
 			{
-				using (SqlCommand command = connection.CreateCommand())
+				using (SqlCommand command = 
+connection.CreateCommand())
 				{
 					command.CommandText = "SP_Character_GetAll";
 					command.CommandType =CommandType.StoredProcedure;

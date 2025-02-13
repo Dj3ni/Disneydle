@@ -67,6 +67,9 @@
     <Build Include="Table\SongCharacter.sql" />
     <Build Include="StoredProcedures\SP_Character_Insert.sql" />
     <Build Include="StoredProcedures\SP_Character_GetById.sql" />
+    <Build Include="StoredProcedures\SP_Character_GetAll.sql" />
+    <Build Include="StoredProcedures\SP_Character_Update.sql" />
+    <Build Include="StoredProcedures\SP_Character_Delete.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />

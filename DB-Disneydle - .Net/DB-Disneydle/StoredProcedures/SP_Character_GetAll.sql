@@ -1,5 +1,4 @@
 ﻿CREATE PROCEDURE [dbo].[SP_Character_GetAll]
-
 AS
 Begin
 	SELECT	[Character_Id],
