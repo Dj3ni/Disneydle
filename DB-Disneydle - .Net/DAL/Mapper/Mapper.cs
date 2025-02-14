@@ -10,6 +10,12 @@ namespace DAL.Mapper
 {
 	internal static class Mapper
 	{
+		/// <summary>
+		/// We convert Sql data to DAL Character data
+		/// </summary>
+		/// <param name="record">IDataRecord</param>
+		/// <returns>DAL.Entities.Character</returns>
+		/// <exception cref="ArgumentNullException"></exception>
 		public static Character ToCharacter(this IDataRecord record)
 		{
 			if(record is null) throw new ArgumentNullException(nameof(record));
@@ -25,6 +31,26 @@ namespace DAL.Mapper
 				ParutionYear = (short)record[nameof(Character.ParutionYear)],
 				HairColor = (string)record[nameof(Character.HairColor)],
 				Continent = (string)record[nameof(Character.Continent)],
+			};
+		}
+
+
+		/// <summary>
+		/// We convert Sql data to DAL Quote data
+		/// </summary>
+		/// <param name="record">IDataRecord object</param>
+		/// <returns>DAL.Entities.Quote</returns>
+		/// <exception cref="ArgumentNullException"></exception>
+		public static Quote ToQuote(this IDataRecord record)
+		{
+			if (record is null) throw new ArgumentNullException( nameof(record));
+			return new Quote()
+			{
+				Quote_Id = (int)record[nameof(Quote.Quote_Id)],
+				Language = (string)record[nameof(Quote.Language)],
+				Content = (string)record[nameof(Quote.Content)],
+				Character_Id = (record[nameof(Quote.Character_Id)] is DBNull)? null: (int)record[nameof(Quote.Character_Id)],
+				Clip = (record[nameof(Quote.Clip)] is DBNull)? null : (string)record[nameof(Quote.Clip)]
 			};
 		}
 	}

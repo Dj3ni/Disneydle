@@ -9,6 +9,12 @@ namespace BLL.Mapper
 {
 	internal static class Mapper
 	{
+		/// <summary>
+		/// Convert a DAL Character to a BLL Character
+		/// </summary>
+		/// <param name="character">DAL Character</param>
+		/// <returns>BLL Character</returns>
+		/// <exception cref="ArgumentNullException"></exception>
 		public static BLL.Entities.Character ToBLL(this DAL.Entities.Character character)
 		{
 			if(character is null) throw new ArgumentNullException(nameof(character));
@@ -25,6 +31,12 @@ namespace BLL.Mapper
 				);
 		}
 
+		/// <summary>
+		/// Convert a BLL Character to a DAL Character
+		/// </summary>
+		/// <param name="character">BLL Character</param>
+		/// <returns>DAL Character</returns>
+		/// <exception cref="ArgumentNullException"></exception>
 		public static DAL.Entities.Character ToDAL(this BLL.Entities.Character character)
 		{
 			if(character is null) throw new ArgumentNullException( nameof(character));
@@ -41,5 +53,43 @@ namespace BLL.Mapper
 				Continent = character.Continent
 			};
 		}
+
+		/// <summary>
+		/// Convert DAL Quote to BLL Quote
+		/// </summary>
+		/// <param name="quote">DAL Quote</param>
+		/// <returns>BLL Quote</returns>
+		/// <exception cref="ArgumentNullException"></exception>
+		public static BLL.Entities.Quote ToBLL(this DAL.Entities.Quote quote)
+		{
+			if (quote is null) throw new ArgumentNullException(nameof(quote));
+			return new Quote(
+				quote.Quote_Id,
+				quote.Language,
+				quote.Content,
+				(quote.Character_Id is null)? null : quote.Character_Id,
+				(quote.Clip is null)? null : quote.Clip
+				);
+		}
+
+		/// <summary>
+		/// Convert BLL Quote to DAL Quote
+		/// </summary>
+		/// <param name="quote">BLL Quote</param>
+		/// <returns>DAL Quote</returns>
+		/// <exception cref="ArgumentNullException"></exception>
+		public static DAL.Entities.Quote ToDAL(this BLL.Entities.Quote quote)
+		{
+			if (quote is null) throw new ArgumentNullException(nameof(quote));
+			return new DAL.Entities.Quote()
+			{
+				Quote_Id = quote.Quote_Id,
+				Language = quote.Language,
+				Content = quote.Content,
+				Character_Id = quote.Character_Id,
+				Clip = quote.Clip,
+			};
+		}
+
 	}
 }
