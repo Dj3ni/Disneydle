@@ -6,7 +6,7 @@ Begin
 		[Quote_Id],
 		[Language],
 		[Content],
-		[Character_Id]
+		[Character_Id],
 		[Clip]
 
 	From [Quote]

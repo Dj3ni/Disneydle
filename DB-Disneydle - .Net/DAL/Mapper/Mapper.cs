@@ -43,7 +43,14 @@ namespace DAL.Mapper
 		/// <exception cref="ArgumentNullException"></exception>
 		public static Quote ToQuote(this IDataRecord record)
 		{
-			if (record is null) throw new ArgumentNullException( nameof(record));
+			if (record is null) throw new ArgumentNullException(nameof(record));
+
+			/*For debug
+			for (int i = 0; i < record.FieldCount; i++)
+			{
+				Console.WriteLine(record.GetName(i));
+			}*/
+
 			return new Quote()
 			{
 				Quote_Id = (int)record[nameof(Quote.Quote_Id)],

@@ -71,8 +71,8 @@ namespace DAL.Services
 					// Parameters
 					command.Parameters.AddWithValue(nameof(Quote.Language), quote.Language);
 					command.Parameters.AddWithValue(nameof(Quote.Content), quote.Content);
-					command.Parameters.AddWithValue(nameof(Quote.Clip), quote.Clip);
-					command.Parameters.AddWithValue(nameof(Quote.Character_Id), quote.Character_Id);
+					command.Parameters.AddWithValue(nameof(Quote.Clip), (quote.Clip is null) ? DBNull.Value : quote.Clip);
+					command.Parameters.AddWithValue(nameof(Quote.Character_Id), (quote.Character_Id is null) ? DBNull.Value : quote.Character_Id);
 
 					connection.Open();
 					return (int)command.ExecuteScalar(); // We have to cast because execute scalar always return type 'object'
@@ -93,8 +93,8 @@ namespace DAL.Services
 					command.Parameters.AddWithValue(nameof(Quote.Quote_Id),id);
 					command.Parameters.AddWithValue(nameof(Quote.Language),quote.Language);
 					command.Parameters.AddWithValue(nameof(Quote.Content),quote.Content);
-					command.Parameters.AddWithValue(nameof(Quote.Clip),quote.Clip);
-					command.Parameters.AddWithValue(nameof(Quote.Character_Id), quote.Character_Id);
+					command.Parameters.AddWithValue(nameof(Quote.Clip),(quote.Clip is null)? DBNull.Value : quote.Clip);
+					command.Parameters.AddWithValue(nameof(Quote.Character_Id), (quote.Character_Id is null)? DBNull.Value : quote.Character_Id);
 					
 					connection.Open();
 					command.ExecuteNonQuery();

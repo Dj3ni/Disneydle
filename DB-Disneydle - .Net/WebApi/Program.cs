@@ -20,6 +20,10 @@ namespace WebApi
 				DAL.Services.CharacterService >();
 				builder.Services.AddScoped<ICharacterRepository<BLL.Entities.Character>, BLL.Services.CharacterService >();
 
+				// QUOTE
+				builder.Services.AddScoped<IQuoteRepository<DAL.Entities.Quote>, DAL.Services.QuoteService >();
+				builder.Services.AddScoped<IQuoteRepository<BLL.Entities.Quote>, BLL.Services.QuoteService >();
+
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 			builder.Services.AddEndpointsApiExplorer();
 			builder.Services.AddSwaggerGen();
