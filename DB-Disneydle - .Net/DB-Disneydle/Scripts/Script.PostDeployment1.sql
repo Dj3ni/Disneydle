@@ -103,11 +103,23 @@ exec sp_character_insert
 @haircolor = 'None',
 @type = 'Chameleon',
 @continent='Europe'
-	/* on va chercher l'id attribué par la table*/
-declare @char6id int;
-select @char6id = character_id from @insertedcharacterids
 
---/* Insertion de citations */
+---- Pumbaa
+Insert into @insertedcharacterids(character_id)
+exec sp_character_insert 
+@name ='Pumbaa', 
+@clothingcolor = 'Brown', 
+@role= 'Sidekick',
+@parutionyear = 1994,
+@gender ='Male',
+@haircolor = 'Black',
+@type = 'Warthog',
+@continent='Africa'
+	/* on va chercher l'id attribué par la table*/
+declare @char7id int;
+select @char7id = character_id from @insertedcharacterids
+
+/* Insertion de citations */
 
 
 

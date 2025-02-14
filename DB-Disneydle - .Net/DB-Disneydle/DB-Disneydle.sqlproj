@@ -70,6 +70,11 @@
     <Build Include="StoredProcedures\SP_Character_GetAll.sql" />
     <Build Include="StoredProcedures\SP_Character_Update.sql" />
     <Build Include="StoredProcedures\SP_Character_Delete.sql" />
+    <Build Include="StoredProcedures\SP_Quote_GetAll.sql" />
+    <Build Include="StoredProcedures\SP_Quote_GetById.sql" />
+    <Build Include="StoredProcedures\SP_Quote_Insert.sql" />
+    <Build Include="StoredProcedures\SP_Quote_Update.sql" />
+    <Build Include="StoredProcedures\SP_Quote_Delete.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />

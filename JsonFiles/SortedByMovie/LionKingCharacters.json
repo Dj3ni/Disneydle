@@ -32,7 +32,7 @@
     {
         "name": "Timon",
         "clothingColor": "Beige and Brown",
-        "role": "Companion",
+        "role": "Sidekick",
         "parutionYear": 1994,
         "gender": "Male",
         "hairColor": "Brown",
@@ -42,7 +42,7 @@
 {
         "name": "Pumbaa",
         "clothingColor": "Brown",
-        "role": "Companion",
+        "role": "Sidekick",
         "parutionYear": 1994,
         "gender": "Male",
         "hairColor": "Brown",
