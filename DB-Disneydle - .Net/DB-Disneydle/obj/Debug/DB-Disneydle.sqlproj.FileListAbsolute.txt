@@ -14,3 +14,7 @@ C:\Repositories\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\Model.xml
 C:\Repositories\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\refactor.xml
 C:\Repositories\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\postdeploy.sql
 C:\Repositories\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\predeploy.sql
+C:\Repo\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\Model.xml
+C:\Repo\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\refactor.xml
+C:\Repo\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\postdeploy.sql
+C:\Repo\Disneydle\DB-Disneydle - .Net\DB-Disneydle\obj\Debug\predeploy.sql

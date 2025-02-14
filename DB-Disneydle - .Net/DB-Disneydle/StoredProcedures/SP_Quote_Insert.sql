@@ -1,5 +1,5 @@
 ﻿CREATE PROCEDURE [dbo].[SP_Quote_Insert]
-	@language varchar (64),
+	@language char (2),
 	@content varchar(max),
 	@clip varchar(max),
 	@character_id int

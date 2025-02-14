@@ -17,6 +17,35 @@ Declare @InsertedQuoteIds Table (Quote_Id int)
 
 /* Insert 5 Charcters into Table Character */
 
+---- Pumbaa
+Insert into @insertedcharacterids(character_id)
+exec sp_character_insert 
+@name ='Pumbaa', 
+@clothingcolor = 'Brown', 
+@role= 'Sidekick',
+@parutionyear = 1994,
+@gender ='Male',
+@haircolor = 'Black',
+@type = 'Warthog',
+@continent='Africa'
+	/* on va chercher l'id attribué par la table*/
+declare @char7id int;
+select @char7id = character_id from @insertedcharacterids
+
+---- Rafiki
+Insert into @insertedcharacterids(character_id)
+exec sp_character_insert 
+@name ='Rafiki', 
+@clothingcolor = 'Grey and Blue', 
+@role= 'Mentor',
+@parutionyear = 1994,
+@gender ='Male',
+@haircolor = 'Gray',
+@type = 'Mandrill',
+@continent='Africa'
+Declare @Char6Id int;
+Select @Char6Id = Character_Id From @InsertedCharacterIds
+
 -- Mickey
 INSERT INTO @InsertedCharacterIds (Character_Id)
 EXEC SP_Character_Insert 
@@ -92,34 +121,49 @@ Exec SP_Character_Insert
 Declare @Char5Id int;
 Select @Char5Id = Character_Id From @InsertedCharacterIds
 
----- Pascal
-Insert into @insertedcharacterids(character_id)
-exec sp_character_insert 
-@name ='Pascal', 
-@clothingcolor = 'Green', 
-@role= 'Companion',
-@parutionyear = 2010,
-@gender ='Male',
-@haircolor = 'None',
-@type = 'Chameleon',
-@continent='Europe'
-
----- Pumbaa
-Insert into @insertedcharacterids(character_id)
-exec sp_character_insert 
-@name ='Pumbaa', 
-@clothingcolor = 'Brown', 
-@role= 'Sidekick',
-@parutionyear = 1994,
-@gender ='Male',
-@haircolor = 'Black',
-@type = 'Warthog',
-@continent='Africa'
-	/* on va chercher l'id attribué par la table*/
-declare @char7id int;
-select @char7id = character_id from @insertedcharacterids
-
 /* Insertion de citations */
 
+--- Hakuna Matata
+Insert into @InsertedQuoteIds(Quote_Id)
+Exec SP_Quote_Insert
+@language ='Fr',
+@content = 'Hakuna Matata ! Ça veut dire pas de souci!',
+@character_id = 1,
+@clip = null
 
+declare @quote1id int
+select @quote1id = Quote_Id from @InsertedQuoteIds
+
+--- Mr Porc
+Insert into @InsertedQuoteIds(Quote_Id)
+Exec SP_Quote_Insert
+@language ='Fr',
+@content = 'C''est à moi que tu parles ? C''est à moi que tu parles ? On m''appelle MONSIEUR porc',
+@character_id = 1,
+@clip = null
+
+declare @quote2id int
+select @quote2id = Quote_Id from @InsertedQuoteIds
+
+--- Il vit en toi
+Insert into @InsertedQuoteIds(Quote_Id)
+Exec SP_Quote_Insert
+@language ='Fr',
+@content = 'Regarde au-delà de ce que tu vois',
+@character_id = 2,
+@clip = null
+
+declare @quote3id int
+select @quote3id = Quote_Id from @InsertedQuoteIds
+
+--- Le passé est douloureux
+Insert into @InsertedQuoteIds(Quote_Id)
+Exec SP_Quote_Insert
+@language ='Fr',
+@content = 'Eh oui, le passé est douloureux, mais à mon sens, on peut soit le fuir, soit tout en apprendre.',
+@character_id = 2,
+@clip = null
+
+declare @quote4id int
+select @quote4id = Quote_Id from @InsertedQuoteIds
 
