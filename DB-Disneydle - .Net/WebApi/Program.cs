@@ -24,7 +24,33 @@ namespace WebApi
 			builder.Services.AddEndpointsApiExplorer();
 			builder.Services.AddSwaggerGen();
 
+			// CORS
+			builder.Services.AddCors(
+				options =>
+				{
+					options.AddDefaultPolicy(policy =>
+					{
+						policy.AllowAnyOrigin()
+								.AllowAnyMethod()
+								.AllowAnyHeader();
+
+					});
+
+					//options.AddPolicy("CorsPolicy",
+					//	policy =>
+					//	{
+					//		policy	.WithOrigins("https://localhost:7050")
+					//				.AllowAnyMethod()
+					//				.AllowAnyHeader();
+					//	}
+					//);
+				}
+			);
+
+
 			var app = builder.Build();
+
+			
 
 			// Configure the HTTP request pipeline.
 			if (app.Environment.IsDevelopment())
@@ -32,6 +58,9 @@ namespace WebApi
 				app.UseSwagger();
 				app.UseSwaggerUI();
 			}
+			//Cors policy
+			app.UseCors();
+			//app.UseCors("CorsPolicy");
 
 			app.UseHttpsRedirection();
 

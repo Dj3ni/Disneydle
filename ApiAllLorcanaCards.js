@@ -33,7 +33,7 @@ async function getCards() {
                     title: nameAfterDash
                 };
             // Ajouter cet objet au tableau
-             cardsArray.push(cardData);
+            cardsArray.push(cardData);
         });
         
     } catch (error) {
@@ -45,7 +45,7 @@ getCards();
 
 // Insérer les infos dans le html après requête API
 getCards().then(()=>{
-     cardsArray.forEach(card=>{
+    cardsArray.forEach(card=>{
         // Character Name
         const name = document.createElement("h4");
         name.innerText = card.name;
