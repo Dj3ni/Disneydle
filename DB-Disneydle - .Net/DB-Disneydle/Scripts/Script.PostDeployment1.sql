@@ -14,6 +14,7 @@
 --	-- Déclaration de la table variable pour stocker les IDs insérés
 DECLARE @InsertedCharacterIds TABLE (Character_Id int);
 Declare @InsertedQuoteIds Table (Quote_Id int)
+Declare @InsertedSongIds table (Song_Id int)
 
 /* Insert 5 Charcters into Table Character */
 
@@ -167,3 +168,27 @@ Exec SP_Quote_Insert
 declare @quote4id int
 select @quote4id = Quote_Id from @InsertedQuoteIds
 
+/* Insert songs */
+
+--- You'll be in my heart
+Insert into @InsertedSongIds(Song_Id)
+Exec SP_Song_Insert
+@title = 'You''ll Be in My Heart',
+@content=1234,
+@clip='https://www.youtube.com/watch?v=Mx1MmY1Bb50'
+
+declare @song1Id int
+select @song1Id = Song_Id from @InsertedSongIds
+
+--- Reflection
+Insert into @InsertedSongIds(Song_Id)
+Exec SP_Song_Insert
+@title = 'Reflection',
+@content= 5678,
+@clip='https://www.youtube.com/watch?v=Y3vXJsk0Vhk'
+
+declare @song2Id int
+select @song2Id = Song_Id from @InsertedSongIds
+/* we link it to Character */
+Insert into SongCharacter (Character_Id,Song_Id)
+	Values(5, @song2Id)
