@@ -11,3 +11,4 @@ select  * from Character
 				on [Quote].[Character_Id] = [Character].[Character_Id]
 				where Character.Character_Id =1
 
+Exec SP_Quote_GetById @quote_id = 1;

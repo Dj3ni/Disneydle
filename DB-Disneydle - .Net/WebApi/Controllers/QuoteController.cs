@@ -90,8 +90,19 @@ namespace WebApi.Controllers
 
 		// DELETE api/<QuoteController>/5
 		[HttpDelete("{id}")]
-		public void Delete(int id)
+		[ProducesResponseType(204)]//No Content
+		[ProducesResponseType (500)]
+		[ProducesResponseType(404)]
+		public IActionResult Delete(int id)
 		{
+			try
+			{
+				_quoteService.Delete(id);
+				return NoContent();
+			}
+			catch (SqlException) { return StatusCode(500); }
+			catch (ArgumentOutOfRangeException) { return NotFound(); }
+
 		}
 	}
 }
