@@ -24,6 +24,15 @@ namespace WebApi
 				builder.Services.AddScoped<IQuoteRepository<DAL.Entities.Quote>, DAL.Services.QuoteService >();
 				builder.Services.AddScoped<IQuoteRepository<BLL.Entities.Quote>, BLL.Services.QuoteService >();
 
+				//SONG
+				builder.Services.AddScoped<ISongRepository<DAL.Entities.Song>, DAL.Services.SongService >();
+				builder.Services.AddScoped<ISongRepository<BLL.Entities.Song>, BLL.Services.SongService >();
+
+				//CharacterSong
+				builder.Services.AddScoped<ICharacterSongRepository<DAL.Entities.Character, DAL.Entities.Song>, DAL.Services.CharacterSongService>();
+				builder.Services.AddScoped<ICharacterSongRepository<BLL.Entities.Character, BLL.Entities.Song>, BLL.Services.CharacterSongService>();
+
+
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 			builder.Services.AddEndpointsApiExplorer();
 			builder.Services.AddSwaggerGen();

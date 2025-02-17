@@ -32,6 +32,22 @@ namespace BLL.Mapper
 		}
 
 		/// <summary>
+		/// Overload of Converter DAL Character to BLL Character
+		/// </summary>
+		/// <param name="character"></param>
+		/// <returns></returns>
+		/// <exception cref="ArgumentNullException"></exception>
+		public static BLL.Entities.Character ToBLLShort(this DAL.Entities.Character character)
+		{
+			if (character is null) throw new ArgumentNullException(nameof(character));
+			return new Character(
+				character.Character_Id,
+				character.Name
+				);
+		}
+
+
+		/// <summary>
 		/// Convert a BLL Character to a DAL Character
 		/// </summary>
 		/// <param name="character">BLL Character</param>

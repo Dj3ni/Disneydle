@@ -76,7 +76,7 @@ namespace WebApi.Controllers
 		[ProducesResponseType<QuoteDtoGet>(201)]
 		[ProducesResponseType(500)]
 		[ProducesResponseType(404)]
-		public IActionResult Put(int id, [FromBody] QuoteDtoPush quote)
+		public IActionResult Put(int id, [FromBody] QuoteDtoPut quote)
 		{
 			try
 			{

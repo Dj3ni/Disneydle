@@ -1,7 +1,7 @@
 ﻿CREATE PROCEDURE [dbo].[SP_Song_Insert]
 	@title nvarchar(100),
-	@content varbinary(Max),
-	@clip nvarchar(max)
+	@content varbinary(Max) null,
+	@clip nvarchar(max) null
 AS
 Begin
 	Insert into [Song]

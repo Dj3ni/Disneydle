@@ -1,8 +1,8 @@
 ﻿CREATE PROCEDURE [dbo].[SP_Song_Update]
 	@song_id int,
 	@title varchar (100),
-	@content varbinary(max),
-	@clip nvarchar(max)
+	@content varbinary(max) null,
+	@clip nvarchar(max) null
 AS
 Begin
 	Update [Song]

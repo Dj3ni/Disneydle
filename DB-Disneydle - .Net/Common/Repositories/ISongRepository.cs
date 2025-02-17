@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace Common.Repositories
 {
-	public interface ISongRepository<TSong, TCharacter> : ICrudRepository<TSong,int>
+	public interface ISongRepository<TSong> : ICrudRepository<TSong,int>
 	{
-		IEnumerable<TSong> GetByCharacterId(int characterId);
-		IEnumerable<TCharacter> GetAllSingers(int songId);
+		
 	}
 }

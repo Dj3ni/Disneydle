@@ -3,10 +3,12 @@
 AS
 Begin
 	SELECT -- all the columns we wante to display
-			c.Character_Id AS CharacterId,
-			c.Name AS CharacterName,
-			s.Song_Id AS SongId,
-			s.Title AS SongTitle
+			c.Character_Id,
+			c.Name,
+			s.Song_Id,
+			s.Title,
+			s.Content,
+			s.Clip
 		FROM Character c -- from Character Column, join with the others
 		LEFT JOIN SongCharacter cs ON c.Character_Id = cs.Character_Id
 		LEFT JOIN Song s ON cs.Song_Id = s.Song_Id

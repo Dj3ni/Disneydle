@@ -32,6 +32,12 @@ namespace BLL.Entities
 			Continent = continent;
 		}
 
+		public Character(int id,string name)
+		{
+			Character_Id = id;
+			Name = name;
+		}
+
 
 	}
 }

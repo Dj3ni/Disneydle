@@ -12,7 +12,7 @@ using DAL.Mapper;
 
 namespace DAL.Services
 {
-	public class SongService : BaseService, ISongRepository<Song, Character>
+	public class SongService : BaseService, ISongRepository<Song>
 	{
 		public SongService(IConfiguration config) : base(config, "Main-DB"){}
 
@@ -33,50 +33,6 @@ namespace DAL.Services
 						}
 					}
 					
-				}
-			}
-		}
-
-		public IEnumerable<Character> GetAllSingers(int songId)
-		{
-			using (SqlConnection connection = new SqlConnection(_connectionString))
-			{
-				using (SqlCommand command = connection.CreateCommand())
-				{
-					command.CommandText = "SP_Song_GetAllSingers";
-					command.CommandType = CommandType.StoredProcedure;
-					command.Parameters.AddWithValue(nameof(Song.Song_Id), songId);
-					connection.Open();
-					using (SqlDataReader reader = command.ExecuteReader())
-					{
-						while (reader.Read())
-						{
-							yield return reader.ToCharacter();
-						}
-					}
-
-				}
-			}
-		}
-
-		public IEnumerable<Song> GetByCharacterId(int characterId)
-		{
-			using (SqlConnection connection = new SqlConnection(_connectionString))
-			{
-				using (SqlCommand command = connection.CreateCommand())
-				{
-					command.CommandText = "SP_Song_GetByCharacterId";
-					command.CommandType = CommandType.StoredProcedure;
-					command.Parameters.AddWithValue("character_id", characterId);
-					connection.Open();
-					using (SqlDataReader reader = command.ExecuteReader())
-					{
-						while (reader.Read())
-						{
-							yield return reader.ToSong();
-						}
-					}
-
 				}
 			}
 		}
@@ -114,8 +70,13 @@ namespace DAL.Services
 					command.CommandType = CommandType.StoredProcedure;
 					// Parameters
 					command.Parameters.AddWithValue(nameof(Song.Title), song.Title);
-					command.Parameters.AddWithValue(nameof(Song.Content),(song.Content is null)? DBNull.Value : song.Content);
+					//command.Parameters.AddWithValue(nameof(Song.Content),(song.Content is null)? DBNull.Value : song.Content);
 					command.Parameters.AddWithValue(nameof(Song.Clip),(song.Clip is null)? DBNull.Value : song.Clip);
+
+					//We need to convert content in object in cas it is null otherwise he will think of DBNull as an attenpt to convert byte[] in varchar
+					var param = new SqlParameter("content", SqlDbType.VarBinary);
+					param.Value = (object)song.Content ?? DBNull.Value;
+					command.Parameters.Add(param);
 
 					connection.Open();
 					return (int)command.ExecuteScalar();
@@ -135,8 +96,12 @@ namespace DAL.Services
 					//Parameters
 					command.Parameters.AddWithValue(nameof(Song.Song_Id), id);
 					command.Parameters.AddWithValue(nameof(Song.Title), song.Title);
-					command.Parameters.AddWithValue(nameof(Song.Content), (song.Content is null) ? DBNull.Value : song.Content);
 					command.Parameters.AddWithValue(nameof(Song.Clip), (song.Clip is null) ? DBNull.Value : song.Clip);
+					//We need to convert content in object in cas it is null otherwise he will think of DBNull as an attenpt to convert byte[] in varchar
+					var param = new SqlParameter("content", SqlDbType.VarBinary);
+					param.Value = (object)song.Content ?? DBNull.Value;
+					command.Parameters.Add(param);
+					//command.Parameters.AddWithValue(nameof(Song.Content), (object)song.Content ?? DBNull.Value);
 
 					connection.Open();
 					command.ExecuteNonQuery();

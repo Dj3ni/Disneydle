@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace BLL.Services
 {
-	public class SongService : ISongRepository<Song, Character>
+	public class SongService : ISongRepository<Song>
 	{
 		// Service injection
-		private ISongRepository<DAL.Entities.Song,DAL.Entities.Character> _songService;
+		private ISongRepository<DAL.Entities.Song> _songService;
 
-		public SongService(ISongRepository<DAL.Entities.Song, DAL.Entities.Character> songService)
+		public SongService(ISongRepository<DAL.Entities.Song> songService)
 		{
 			_songService = songService;
 		}
@@ -24,16 +24,6 @@ namespace BLL.Services
 		public IEnumerable<Song> GetAll()
 		{
 			return _songService.GetAll().Select(dal=>dal.ToBLL());
-		}
-
-		public IEnumerable<Character> GetAllSingers(int songId)
-		{
-			return _songService.GetAllSingers(songId).Select(dal=>dal.ToBLL());
-		}
-
-		public IEnumerable<Song> GetByCharacterId(int characterId)
-		{
-			return _songService.GetByCharacterId(characterId).Select(dal=>dal.ToBLL());
 		}
 
 		public Song GetById(int id)

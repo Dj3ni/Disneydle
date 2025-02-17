@@ -34,6 +34,23 @@ namespace DAL.Mapper
 			};
 		}
 
+		/// <summary>
+		/// Short Version of Dal Character with Id and Name only
+		/// </summary>
+		/// <param name="record">IDataRecord</param>
+		/// <returns>DAL Character</returns>
+		/// <exception cref="ArgumentNullException"></exception>
+		public static Character ToCharacterShort(this IDataRecord record)
+		{
+			if (record is null) throw new ArgumentNullException(nameof(record));
+
+			return new Character()
+			{
+				Character_Id = (int)record[nameof(Character.Character_Id)],
+				Name = (string)record[nameof(Character.Name)]				
+			};
+		}
+
 
 		/// <summary>
 		/// We convert Sql data to DAL Quote data

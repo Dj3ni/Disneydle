@@ -3,6 +3,7 @@
 AS
 Begin
 	Select 
+		[Song_Id],
 		[Title],
 		[Content],
 		[Clip]

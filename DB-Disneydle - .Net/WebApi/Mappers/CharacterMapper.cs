@@ -1,5 +1,6 @@
 ﻿using BLL.Entities;
 using WebApi.Models.Character;
+using WebApi.Models.CharacterSong;
 
 namespace WebApi.Mappers
 {
@@ -68,6 +69,23 @@ namespace WebApi.Mappers
 				HairColor = character.HairColor,
 				Type = character.Type,
 				Continent = character.Continent
+			};
+		}
+
+
+		/// <summary>
+		/// Short version of BLL Character for Api get 
+		/// </summary>
+		/// <param name="character">Character</param>
+		/// <returns>CharacterShortDtoGet</returns>
+		/// <exception cref="ArgumentNullException"></exception>
+		public static CharacterShortDtoGet ToDtoGet(this Character character)
+		{
+			if (character is null) throw new ArgumentNullException(nameof(character));
+			return new CharacterShortDtoGet()
+			{
+				Character_Id = character.Character_Id,
+				Name = character.Name
 			};
 		}
 
