@@ -14,8 +14,6 @@ namespace DAL.Services
 {
 	public class CharacterService : BaseService, ICharacterRepository<Character>
 	{
-		//Services
-		private ICharacterRepository<Character> _characterService;
 
 		// Constructor
 		public CharacterService(IConfiguration config) : base(config, "Main-DB") { }

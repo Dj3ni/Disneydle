@@ -18,7 +18,7 @@ namespace WebApi
 				// CHARACTER
 				builder.Services.AddScoped<ICharacterRepository<DAL.Entities.Character>,
 				DAL.Services.CharacterService >();
-				builder.Services.AddScoped<ICharacterRepository<BLL.Entities.Character>, BLL.Services.CharacterService >();
+				builder.Services.AddScoped<ICharacterRepository<BLL.Entities.Character>, BLL.Services.CharacterService>();
 
 				// QUOTE
 				builder.Services.AddScoped<IQuoteRepository<DAL.Entities.Quote>, DAL.Services.QuoteService >();

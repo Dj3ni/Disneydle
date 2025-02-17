@@ -13,16 +13,11 @@ namespace BLL.Services
 	public class CharacterSongService : ICharacterSongRepository<Character, Song>
 	{
 		//Service Injection
-		private ICharacterSongRepository<DAL.Entities.Character, DAL.Entities.Song> _characterSongService;
+		private readonly ICharacterSongRepository<DAL.Entities.Character, DAL.Entities.Song> _characterSongService;
 
 		public CharacterSongService(ICharacterSongRepository<DAL.Entities.Character, DAL.Entities.Song> characterSongService)
 		{
 			_characterSongService = characterSongService;
-		}
-
-		public void AddSinger(int characherId, int songId)
-		{
-			throw new NotImplementedException();
 		}
 
 		public IEnumerable<Character> GetAllSingers(int songId)
@@ -35,9 +30,14 @@ namespace BLL.Services
 			return _characterSongService.GetByCharacterId(characterId).Select(dal => dal.ToBLL());
 		}
 
+		public void AddSinger(int characherId, int songId)
+		{
+			_characterSongService.AddSinger(characherId, songId);
+		}
+
 		public void RemoveSinger(int characherId, int songId)
 		{
-			throw new NotImplementedException();
+			_characterSongService.RemoveSinger(characherId, songId);
 		}
 	}
 }

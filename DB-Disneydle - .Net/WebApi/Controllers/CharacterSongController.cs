@@ -61,5 +61,38 @@ namespace WebApi.Controllers
 			catch (ArgumentOutOfRangeException) { return NotFound(); }
 		}
 
+
+
+		[HttpPost("AddSinger/{character_Id}/{song_Id}")]
+		[ProducesResponseType<IEnumerable<SongDtoGet>>(201)]
+		[ProducesResponseType(500)]
+		[ProducesResponseType(404)]
+		public IActionResult AddSinger(int character_Id, int song_Id)
+		{
+			try
+			{
+				_characterService.AddSinger(character_Id, song_Id);
+				IEnumerable<SongDtoGet> model = _characterService.GetByCharacterId(character_Id).Select(bll => bll.ToDtoGet());
+				return CreatedAtAction(nameof(GetByChatacterId), new {character_Id}, model);
+			}
+			catch (SqlException) { return StatusCode(500); }
+			catch (ArgumentOutOfRangeException) { return NotFound(); };
+		}
+
+
+		[HttpDelete("RemoveSinger/{character_Id}/{song_Id}")]
+		[ProducesResponseType(204)]
+		[ProducesResponseType(500)]
+		[ProducesResponseType(404)]
+		public IActionResult RemoveSinger(int character_Id, int song_Id)
+		{
+			try
+			{
+				_characterService.RemoveSinger(character_Id, song_Id);
+				return NoContent();
+			}
+			catch (SqlException) { return StatusCode(500); }
+			catch (ArgumentOutOfRangeException) { return NotFound(); };
+		}
 	}
 }

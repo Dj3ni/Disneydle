@@ -26,7 +26,6 @@ SELECT
     WHERE c.Character_Id = 5;
 
 -- Select all the singers of the song 2
-
 Select 
 		s.Song_Id as SongId,
 		s.Title,
@@ -37,3 +36,19 @@ Select
 	Left Join SongCharacter sc On s.Song_Id = sc.Song_Id
 	Left Join Character c On sc.Character_Id = c.Character_Id
 	Where s.Song_Id = 2
+
+-- Select all Character with their song
+SELECT -- all the columns we want to display
+			c.Character_Id,
+			c.Name,
+			s.Song_Id,
+			s.Title,
+			s.Content,
+			s.Clip
+		FROM Character c -- from Character Column, join with the others
+		LEFT JOIN SongCharacter cs ON c.Character_Id = cs.Character_Id
+		LEFT JOIN Song s ON cs.Song_Id = s.Song_Id
+
+-- Add and remove singer to a song
+Insert into [SongCharacter](Character_Id, Song_Id) values (1,1);
+Delete from [SongCharacter]where Character_Id = 1 and Song_Id = 1;

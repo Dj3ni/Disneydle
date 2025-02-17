@@ -16,11 +16,7 @@ namespace DAL.Services
 	{
 		public CharacterSongService(IConfiguration config) : base(config, "Main-DB"){}
 
-		public void AddSinger(int characherId, int songId)
-		{
-			throw new NotImplementedException();
-		}
-
+		
 		public IEnumerable<Character> GetAllSingers(int songId)
 		{
 			using (SqlConnection connection = new SqlConnection(_connectionString))
@@ -65,9 +61,42 @@ namespace DAL.Services
 			}
 		}
 
+		public void AddSinger(int characterId, int songId)
+		{
+			using (SqlConnection connection = new SqlConnection(_connectionString))
+			{
+				using (SqlCommand command = connection.CreateCommand())
+				{
+					command.CommandText = "SP_CharacterSong_AddSinger";
+					command.CommandType = CommandType.StoredProcedure;
+					//PArameters
+					command.Parameters.AddWithValue("character_id", characterId);
+					command.Parameters.AddWithValue("song_id", songId);
+
+					connection.Open();
+					command.ExecuteNonQuery();
+
+				}
+			}
+		}
+
 		public void RemoveSinger(int characherId, int songId)
 		{
-			throw new NotImplementedException();
+			using (SqlConnection connection = new SqlConnection(_connectionString))
+			{
+				using (SqlCommand command = connection.CreateCommand())
+				{
+					command.CommandText = "SP_CharacterSong_RemoveSinger";
+					command.CommandType = CommandType.StoredProcedure;
+					//PArameters
+					command.Parameters.AddWithValue("character_id", characherId);
+					command.Parameters.AddWithValue("song_id", songId);
+
+					connection.Open();
+					command.ExecuteNonQuery();
+
+				}
+			}
 		}
 	}
 }
