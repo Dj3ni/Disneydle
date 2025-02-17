@@ -14,5 +14,5 @@ Begin
 			[Continent]
 			
 		FROM [Character] 
-	Where [Character_Id] = @Character_ID
+	Where [Character_Id] = @Character_Id
 End

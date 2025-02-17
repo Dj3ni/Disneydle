@@ -60,5 +60,18 @@ namespace DAL.Mapper
 				Clip = (record[nameof(Quote.Clip)] is DBNull)? null : (string)record[nameof(Quote.Clip)]
 			};
 		}
+
+		public static Song ToSong(this IDataRecord record)
+		{
+			if(record is null) throw new ArgumentNullException(nameof (record));
+
+			return new Song() 
+			{ 
+				Song_Id = (int)record[nameof (Song.Song_Id)],
+				Title = (string)record[nameof(Song.Title)],
+				Content = (record[nameof(Song.Content)] is DBNull)? null : (byte[])record[nameof(Song.Content)],
+				Clip = (record[nameof(Song.Clip)] is DBNull)? null : (string)record[nameof(Song.Clip)],
+			};
+		}
 	}
 }
