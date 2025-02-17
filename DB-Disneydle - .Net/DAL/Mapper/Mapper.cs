@@ -61,6 +61,12 @@ namespace DAL.Mapper
 			};
 		}
 
+		/// <summary>
+		/// Convert sql Data to DAL Song data
+		/// </summary>
+		/// <param name="record">IDataRecord object</param>
+		/// <returns>DAL Quote</returns>
+		/// <exception cref="ArgumentNullException"></exception>
 		public static Song ToSong(this IDataRecord record)
 		{
 			if(record is null) throw new ArgumentNullException(nameof (record));

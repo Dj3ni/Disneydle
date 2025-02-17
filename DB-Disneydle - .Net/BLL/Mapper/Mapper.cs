@@ -91,5 +91,34 @@ namespace BLL.Mapper
 			};
 		}
 
+		/// <summary>
+		/// Convert DAL Song to BLL Song
+		/// </summary>
+		/// <param name="song">DAL Song</param>
+		/// <returns>BLL Song</returns>
+		/// <exception cref="ArgumentNullException"></exception>
+		public static BLL.Entities.Song ToBLL(this DAL.Entities.Song song)
+		{
+			if(song is null) throw new ArgumentNullException( nameof(song));
+			return new Song
+				(
+					song.Song_Id,
+					song.Title,
+					(song.Content is null)? null : song.Content,
+					(song.Clip is null)? null : song.Clip
+				);
+		}
+
+		public static DAL.Entities.Song ToDAL(this BLL.Entities.Song song)
+		{
+			if( song is null) throw new ArgumentNullException(nameof (song));
+			return new DAL.Entities.Song()
+			{
+				Song_Id = song.Song_Id,
+				Title = song.Title,
+				Content = (song.Content is null) ? null : song.Content,
+				Clip = (song.Clip is null) ? null : song.Clip
+			};
+		}
 	}
 }
