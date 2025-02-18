@@ -9,7 +9,7 @@ let urlGetAll = "https://localhost:7050/api/character";
 //     })
 //     .catch(error => console.error("Il y a eu un problème avec votre requête", error))
 
-// Ok but Cors prob
+// Ok but Cors prob ( home only)
 async function getCharacters(){
     try{
         const response = await axios.get(urlGetAll)
@@ -32,4 +32,4 @@ async function getCharacter(characterId){
     }
 }
 
-// getCharacter(2);
+getCharacter(2);
