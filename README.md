@@ -1,5 +1,5 @@
 # Disneydle
-Disneydle project in C#, in collaboration with Béné for Frontend
+Disneydle project in C#, in collaboration with Béné a magic giver talented Frontend dev. The Frontend part is in React.
 
 ## Context
 We are Bénédicte and Jenny and we are both currently learning to be Web developers at Interface3.  
