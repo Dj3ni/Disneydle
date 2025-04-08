@@ -1,11 +1,10 @@
 # Disneydle
-Disneydle project in C#, in collaboration with Béné a magic giver talented Frontend dev. The Frontend part is in React.
-
+Disneydle project in C#, in collaboration with Béné a magic giver talented Frontend dev. 
 ## Context
 We are Bénédicte and Jenny and we are both currently learning to be Web developers at Interface3.  
 Béné wants to become a frontend developer while I prefer backend developing.
 We spend quite some time on the website : https://pokedle.net/ and play also with Loldle, Narutodle,... 
-We were very sad that there was nothing on the Disney theme and decided to make a little project together to work our recently leraned knowledges.
+We were very sad that there was nothing on the Disney theme and decided to make a little project together to work our recently learned knowledges.
 That's where Disneydle was born!
 
 ## Objectives
