@@ -24,7 +24,7 @@ namespace WebApi
 				builder.Services.AddScoped<IQuoteRepository<DAL.Entities.Quote>, DAL.Services.QuoteService >();
 				builder.Services.AddScoped<IQuoteRepository<BLL.Entities.Quote>, BLL.Services.QuoteService >();
 
-				//SONG
+				// SONG
 				builder.Services.AddScoped<ISongRepository<DAL.Entities.Song>, DAL.Services.SongService >();
 				builder.Services.AddScoped<ISongRepository<BLL.Entities.Song>, BLL.Services.SongService >();
 
@@ -43,7 +43,6 @@ namespace WebApi
 				{
 					//options.AddDefaultPolicy(policy =>
 					//{
-
 					//	policy.AllowAnyOrigin()
 					//			.AllowAnyMethod()
 					//			.AllowAnyHeader();
@@ -53,7 +52,7 @@ namespace WebApi
 					options.AddPolicy("CorsPolicy",
 						policy =>
 						{
-							policy.WithOrigins("https://localhost:5173")
+							policy.WithOrigins("http://127.0.0.1:5500")
 									.AllowAnyMethod()
 									.AllowAnyHeader();
 						}
@@ -70,8 +69,8 @@ namespace WebApi
 				app.UseSwaggerUI();
 			}
 			//Cors policy
-			app.UseCors();
-			//app.UseCors("CorsPolicy");
+			//app.UseCors();
+			app.UseCors("CorsPolicy");
 
 			app.UseHttpsRedirection();
 

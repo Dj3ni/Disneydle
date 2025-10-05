@@ -1,19 +1,15 @@
 const Result_Div = document.getElementById("result");
-let urlGetAll = "https://localhost:7050/api/character";
+let urlGetAll = "https://localhost:7050/api/Character";
+const charactersArray = [];
+const numberOfPages = 10;
 
-// Doesn't work (cors prob): 
-// fetch(urlGetAll)
-//     .then(response =>{
-//         if(!response.ok) throw new Error("Response not ok")
-//         console.log(response);
-//     })
-//     .catch(error => console.error("Il y a eu un problème avec votre requête", error))
-
-// Ok but Cors prob ( home only)
+// Ok but Cors prob (home only)
 async function getCharacters(){
     try{
         const response = await axios.get(urlGetAll)
-        console.log(response.data);
+        // console.log(response.data)
+        charactersArray.push(...response.data)
+        displayCharacters()
     }
     catch (Error){
         console.error("Erreur lors de la récupération des données :", Error.message);
@@ -21,6 +17,21 @@ async function getCharacters(){
 }
 
 getCharacters();
+
+function displayCharacters(){
+    Result_Div.innerHTML = "";
+    charactersArray.forEach(character=>{
+        const name = document.createElement("h4");
+        const imgElement = document.createElement("img");
+
+        name.innerText = character.name;
+        imgElement.src = character.image;
+        imgElement.alt = character.name;
+
+        Result_Div.appendChild(name);
+        Result_Div.appendChild(imgElement);
+    })
+}
 
 async function getCharacter(characterId){
     try{

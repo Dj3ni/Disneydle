@@ -6,7 +6,6 @@ let page = "https://api.disneyapi.dev/character?page=";
 const charactersArray = [];
 const numberOfPages = 10;
 const Result_Div = document.getElementById("result");
-// console.log(Result_Div);
 
 async function getCharacter() {
     try {
