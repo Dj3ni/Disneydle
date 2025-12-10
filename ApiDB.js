@@ -1,5 +1,6 @@
 const Result_Div = document.getElementById("result");
 let urlGetAll = "https://localhost:7050/api/Character";
+// sur Linux: http://localhost:5205/swagger/index.html pour page Swagger et il faut installer SqlServer et créer la BDD
 const charactersArray = [];
 const numberOfPages = 10;
 
